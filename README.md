@@ -6,29 +6,27 @@
 
 In this page, I'll be documenting a comprehensive analysis of a fictitious business case. This was done as a capstone project for my [Google Data Analytics Professional Certificate](https://www.credly.com/earner/earned/share/8c3b6269-5e44-40d0-be37-e3f9c8e8f3da) and will include the use of a diverse set of data tools as SQL (SQL Server), Python (Pandas), Figma and Tableau.
 
-It will be done following the Google Analysis Phases Framework, which is summarised in the diagram below
+It will follow the Google Analysis Phases Framework, which is summarised in the diagram below and explained with more detail in the following link: https://emkautsar.medium.com/data-analysis-phases-7f32b575b431
 
 <img src="https://miro.medium.com/max/1200/1*Z7x7l5YL4WbHkxQckLSXlA.png" width="500">
 
 Project tools / libraries:
-- Microsoft SQL Server
-- Pandas
-- Figma
-- Tableau
+- `Microsoft SQL Server`
+- `Python: Pandas`
+- `Figma`
+- `Tableau`
 
 Techniques applied:
-- Data extraction
-- Data Transformation
-- Data Cleaning
-- Dashboard design (With Figma)
+- `Data extraction`
+- `Data Transformation`
+- `Data Cleaning`
+- `Dashboard design (With Figma)`
 
-
-
-## Data description
+# Data description
 
 Dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/data-playground), it contains 6 files: `454_calendar.csv`, `taxi_zones.csv`, `2017_taxi_trips.csv`, `2018_taxi_trips.csv`, `2019_taxi_trips.csv`, `2020_taxi_trips.csv`. The parameters included are:
 
-### 454_calendar.csv
+## 454_calendar.csv
 > - **`Date`**: Unique number for each athlete. (categorical)
 > - **`FiscalYear`**: Athlete's name. (categorical)
 > - **`FiscalQuarter`**: Male (M) or Female (F). (categorical)
@@ -42,13 +40,13 @@ Dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/dat
 > - **`DayOfMonthNumber`**: Summer or Winter. (categorical)
 > - **`DayName`**: Host city. (categorical)
 
-### taxi_zones.csv
+## taxi_zones.csv
 > - **`LocationID`**: National Olympic Commitee 3 letter code. (categorical)
 > - **`Borough`**: Country name. (categorical)
 > - **`Zone`**: Real country name if "Region" isn't an exact match. (categorical)
 > - **`service_zone`**: Real country name if "Region" isn't an exact match. (categorical)
 
-### [year] taxi_trips.csv
+## [year] taxi_trips.csv
 > - **`VendorID`**: National Olympic Commitee 3 letter code. (categorical)
 > - **`lpep_pickup_datetime`**: Country name. (categorical)
 > - **`lpep_dropoff_datetime`**: Real country name if "Region" isn't an exact match. (categorical)
