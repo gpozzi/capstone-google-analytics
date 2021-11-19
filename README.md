@@ -6,7 +6,7 @@ In this page, I'll be documenting a comprehensive analysis of a fictitious busin
 
 It will be done following the Google Analysis Phases Framework, which is summarised in the diagram below
 
-<img src="https://miro.medium.com/max/1200/1*Z7x7l5YL4WbHkxQckLSXlA.png" width="300">
+<img src="https://miro.medium.com/max/1200/1*Z7x7l5YL4WbHkxQckLSXlA.png" width="500">
 
 Given a dataset with 271.116 athletes that participated into different Olympics editions from Athens 1896 to Rio 2016, I had to create a dashboard to capture the history of the Olympic Games. full details of the challenge
 
