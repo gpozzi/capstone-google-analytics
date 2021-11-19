@@ -10,7 +10,7 @@ It will follow the Google Analysis Phases Framework, which is summarised in the 
 
 <img src="https://miro.medium.com/max/1200/1*Z7x7l5YL4WbHkxQckLSXlA.png" width="500">
 
-Project tools / libraries:
+Project tools / libraries used:
 - `Microsoft SQL Server`
 - `Python: Pandas`
 - `Figma`
