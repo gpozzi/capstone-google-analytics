@@ -4,9 +4,9 @@
 
 <img src="https://user-images.githubusercontent.com/52865532/142680713-61a35034-0413-46e4-ac08-d4c38299c54e.jpg" width="500">
 
-In this page, I'll be documenting a comprehensive analysis of a fictitious business case. This was done as a capstone project for my [Google Data Analytics Professional Certificate](https://www.credly.com/earner/earned/share/8c3b6269-5e44-40d0-be37-e3f9c8e8f3da) and will include the use of a diverse set of data tools as SQL (SQL Server), Python (Pandas), Figma and Tableau.
+In this page, I'll be documenting a comprehensive analysis of a fictitious business case. This was done as a capstone project for my [Google Data Analytics Professional Certificate](https://www.credly.com/earner/earned/share/8c3b6269-5e44-40d0-be37-e3f9c8e8f3da).
 
-It will follow the Google Analysis Phases Framework, which is summarised in the diagram below and explained with more detail in the following link: https://emkautsar.medium.com/data-analysis-phases-7f32b575b431
+It will follow the Google's Six Analysis Phases Framework, which is summarised in the diagram below and explained with more detail in the following link: https://emkautsar.medium.com/data-analysis-phases-7f32b575b431
 
 <img src="https://miro.medium.com/max/1200/1*Z7x7l5YL4WbHkxQckLSXlA.png" width="500">
 
