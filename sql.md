@@ -1,7 +1,12 @@
+It seems that the variable `congestion_surcharge` was added in 2018. We need to artificially add it to the 2017 dataset to be able to concatenate all tables into one.
+
 ```sql
 ALTER TABLE taxis.dbo.[2017_taxi_trips]
-ADD congestion_surcharge FLOAT DEFAULT 0.0
+ADD congestion_surcharge FLOAT
+```
 
+We'll set the default value of `congestion_surcharge` as 0.0
+```sql
 UPDATE
 	taxis.dbo.[2017_taxi_trips]
 SET
@@ -9,12 +14,9 @@ SET
 WHERE
     congestion_surcharge IS NULL
 ```
-SELECT
-	TOP 50 *
-FROM
-	taxis.dbo.[2017_taxi_trips]
 
-
+We then concatenate the four datasets into one, which we'll call `**trips**`
+```sql
 SELECT
 	*
 INTO
@@ -40,7 +42,9 @@ FROM(
 	FROM
 		taxis.dbo.[2018_taxi_trips]
     ) AS S;
+```
 
+```sql
 SELECT
 	TOP 50 *
 FROM taxis.dbo.trips
@@ -53,7 +57,9 @@ SET passenger_count = CASE passenger_count
 						WHEN 0 THEN 1
 						ELSE passenger_count
 						END
+```
 
+```sql
 UPDATE
 taxis.dbo.trips
 SET 
@@ -66,7 +72,9 @@ WHERE
 	AND mta_tax < 0
 	AND congestion_surcharge < 0
 	AND improvement_surcharge < 0
+```
 
+```sql
 UPDATE
 	taxis.dbo.trips
 SET 
@@ -75,7 +83,9 @@ WHERE
 	fare_amount > 0
 	AND
 	trip_distance = 0
+```
 
+```sql
 UPDATE
 	taxis.dbo.trips
 SET 
@@ -84,7 +94,9 @@ WHERE
 	fare_amount = 0
 	AND
 	trip_distance > 0
+```
 
+```sql
 DECLARE @tempcol AS datetime
 UPDATE
 	taxis.dbo.trips
@@ -94,13 +106,17 @@ SET
 	lpep_dropoff_datetime = @tempcol
 WHERE
 	lpep_dropoff_datetime < lpep_pickup_datetime
+```
 
+```sql
 SELECT
 	TOP 50 *
 FROM taxis.dbo.trips
 WHERE
 	lpep_dropoff_datetime < lpep_pickup_datetime
+```
 
+```sql
 SELECT TOP 50 *
 FROM taxis.dbo.trips
 WHERE
@@ -108,12 +124,16 @@ WHERE
 	AND mta_tax < 0
 	AND congestion_surcharge < 0
 	AND improvement_surcharge < 0
+```
 
+```sql
 UPDATE
 taxis.dbo.trips
 SET
 	store_and_fwd_flag = REPLACE(store_and_fwd_flag, '"', '')
+```
 
+```sql
 SELECT
 	*
 INTO taxis.dbo.trips_final
@@ -150,7 +170,9 @@ FROM(
 		DATEDIFF(SECOND,lpep_pickup_datetime,lpep_dropoff_datetime) < 86400
 		AND
 		(trip_distance != 0 AND fare_amount != 0)) AS S;
+```
 
+```sql
 SELECT
 	TOP 50 *
 FROM
@@ -159,8 +181,9 @@ WHERE
 	lpep_pickup_datetime > '2019-06-01'
 	AND
 	lpep_dropoff_datetime < '2020-09-01'
-	
+```	
 
+```sql
 SELECT
 	*
 FROM taxis.dbo.trips_final
