@@ -78,6 +78,9 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 I've been recently hired as a Data Analyst for the New York City Taxi & Limousine Commission. It's my first week on the job.
 
 #### NYC Taxi & Limousine Commission
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nyctlc_logo.webp/300px-Nyctlc_logo.webp.png" width="300" style="text-align:center>
+
+The New York City Taxi and Limousine Commission (NYC TLC) is an agency of the New York City government that licenses and regulates the medallion taxis and for-hire vehicle industries, including app-based companies. The TLC's regulatory landscape includes medallion (yellow) taxicabs, green or Boro taxicabs, black cars (including both traditional and app-based services), community-based livery cars, commuter vans, paratransit vehicles (ambulettes), and some luxury limousines.
 
 
 #### Mario Maven
