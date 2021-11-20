@@ -10,7 +10,7 @@ We'll set the default value of `congestion_surcharge` as 0.0
 UPDATE
 	taxis.dbo.[2017_taxi_trips]
 SET
-    congestion_surcharge = 0
+    congestion_surcharge = 0.0
 WHERE
     congestion_surcharge IS NULL
 ```
