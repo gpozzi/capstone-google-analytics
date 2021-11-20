@@ -8,7 +8,7 @@ For the first two CSV files (**`2017_taxi_trips.csv`** and **`2018_taxi_trips.cs
 
 We'll also parse both datetime columns (**`lpep_pickup_datetime`** and **`lpep_dropoff_datetime`**) with the given format `'%Y-%m-%d %H:%M:%S.%f'` to ensure data consistency across all rows.
 
-Finally, they will all be saved as new CSV files.
+Finally, they will all be saved as new CSV files to be loaded into SQL Server as new tables.
 
 ### 2017
 ```python
