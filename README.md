@@ -23,8 +23,7 @@ Techniques applied:
 - `Dashboard design (With Figma)`
 
 # Data description
-
-Dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/data-playground), it contains 6 files: `454_calendar.csv`, `taxi_zones.csv`, `2017_taxi_trips.csv`, `2018_taxi_trips.csv`, `2019_taxi_trips.csv`, `2020_taxi_trips.csv`, along with a geospatial map in TopoJSON and Shapefile formats. The parameters included are:
+The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/data-playground), it contains 6 files: `454_calendar.csv`, `taxi_zones.csv`, `2017_taxi_trips.csv`, `2018_taxi_trips.csv`, `2019_taxi_trips.csv`, `2020_taxi_trips.csv`, along with a geospatial map in TopoJSON (to be used with PowerBI) and Shapefile (Tableau) formats. It contains over 28 million Green Taxi trips records registered between 2017 and 2020. The parameters included are:
 
 ## 454_calendar.csv
 > - **`Date`**: Date [`2018-02-03`]. (categorical)
@@ -66,3 +65,40 @@ Dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/dat
 > - **`payment_type`**: A numeric code signifying how the passenger paid for the trip (1= Credit card, 2= Cash, 3= No charge, 4= Dispute, 5= Unknown, 6= Voided trip). (categorical)
 > - **`trip_type`**: A code indicating whether the trip was a street-hail or a dispatch that is automatically assigned based on the metered rate in use but can be altered by the driver (1= Street-hail, 2= Dispatch). (categorical)
 > - **`congestion_surcharge`**: Congestion surcharge for trips that start, end or pass through the congestion zone in Manhattan, south of 96th street ($2.50 for non-shared trips in Yellow Taxis, $2.75 for non-shared trips in Green Taxis)". (categorical)
+
+# Analysis
+
+## ASK Phase
+> For the Maven Taxi Challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher
+> We’ve been collecting trip data for ~4 years now, but without a proper analyst we haven’t been able to put it to good use. That's where you come in!
+> I’m hoping you can build me a dashboard to help with weekly planning and logistics
+
+### Protagonists:
+####  Me
+I've been recently hired as a Data Analyst for the New York City Taxi & Limousine Commission. It's my first week on the job.
+
+#### NYC Taxi & Limousine Commission
+
+
+#### Mario Maven
+Mario is the Lead Dispatcher and the solicitor of the dashboard. Let's take a look at the 
+
+- Dispatcher role: Taxi dispatchers, also called starters, send cabs off to customers and keep records of all road-service calls. They may stay in touch with the drivers while they are on the road, communicating by phone, computer, or two-way radio. They help drivers with problems and answer their questions. For example, they may tell drivers which routes to take to avoid traffic jams. When drivers are involved in accidents, dispatchers call for assistance and send other taxis to the customers.
+
+Read more: Taxi Dispatcher Job Description, Career as a Taxi Dispatcher, Salary, Employment - Definition and Nature of the Work, Education and Training Requirements, Getting the Job - StateUniversity.com https://careers.stateuniversity.com/pages/790/Taxi-Dispatcher.html#ixzz7CltXiIUu
+
+Business goal: achieve operational efficiency by efficiently allocating taxis to different zones so they will have to move less to pick up a passenger.
+Pain point: 
+
+Problem statement:
+A well crafted dashboard will greatly improve weekly planning and logistics, which is what the Lead Dispatcher will
+
+## PREPARE Phase
+
+## PROCESS Phase
+
+## ANALYZE Phase
+
+## SHARE Phase
+
+## ACT Phase
