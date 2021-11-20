@@ -68,10 +68,8 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 
 # Analysis
 
+
 ## ASK Phase
-> For the Maven Taxi Challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher
-> We’ve been collecting trip data for ~4 years now, but without a proper analyst we haven’t been able to put it to good use. That's where you come in!
-> I’m hoping you can build me a dashboard to help with weekly planning and logistics
 
 ### Protagonists:
 ####  Me
@@ -79,16 +77,12 @@ I've been recently hired as a Data Analyst for the New York City Taxi & Limousin
 
 #### NYC Taxi & Limousine Commission
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nyctlc_logo.webp/300px-Nyctlc_logo.webp.png" width="250">
-
 The New York City Taxi and Limousine Commission (NYC TLC) is an agency of the New York City government that licenses and regulates the medallion taxis and for-hire vehicle industries, including app-based companies. The TLC's regulatory landscape includes medallion (yellow) taxicabs, green or Boro taxicabs, black cars (including both traditional and app-based services), community-based livery cars, commuter vans, paratransit vehicles (ambulettes), and some luxury limousines.
 
-
 #### Mario Maven
-Mario is the Lead Dispatcher and the solicitor of the dashboard. Let's take a look at the 
+Mario is the Lead Dispatcher and the solicitor of the dashboard. Let's take a look at the job description of a typical Lead Dispatcher:
 
-- Dispatcher role: Taxi dispatchers, also called starters, send cabs off to customers and keep records of all road-service calls. They may stay in touch with the drivers while they are on the road, communicating by phone, computer, or two-way radio. They help drivers with problems and answer their questions. For example, they may tell drivers which routes to take to avoid traffic jams. When drivers are involved in accidents, dispatchers call for assistance and send other taxis to the customers.
-
-Read more: Taxi Dispatcher Job Description, Career as a Taxi Dispatcher, Salary, Employment - Definition and Nature of the Work, Education and Training Requirements, Getting the Job - StateUniversity.com https://careers.stateuniversity.com/pages/790/Taxi-Dispatcher.html#ixzz7CltXiIUu
+> Taxi dispatchers, also called starters, send cabs off to customers and keep records of all road-service calls. They may stay in touch with the drivers while they are on the road, communicating by phone, computer, or two-way radio. They help drivers with problems and answer their questions. For example, they may tell drivers which routes to take to avoid traffic jams. When drivers are involved in accidents, dispatchers call for assistance and send other taxis to the customers.
 
 Business goal: achieve operational efficiency by efficiently allocating taxis to different zones so they will have to move less to pick up a passenger.
 Pain point: 
