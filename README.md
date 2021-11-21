@@ -94,7 +94,7 @@ This way, the dashboard will positively impact all stakeholders involved while b
 
 ## 2. PREPARE Phase
 ### Data description
-The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/data-playground), it contains 6 files: `454_calendar.csv`, `taxi_zones.csv`, `2017_taxi_trips.csv`, `2018_taxi_trips.csv`, `2019_taxi_trips.csv`, `2020_taxi_trips.csv`, along with a geospatial map in TopoJSON (to be used with PowerBI) and Shapefile (Tableau) formats. It contains over 28 million Green Taxi trips records registered between 2017 and 2020. The parameters included are:
+The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/data-playground) (**`[original source](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)`**), it contains 6 files: `454_calendar.csv`, `taxi_zones.csv`, `2017_taxi_trips.csv`, `2018_taxi_trips.csv`, `2019_taxi_trips.csv`, `2020_taxi_trips.csv`, along with a geospatial map in TopoJSON (to be used with PowerBI) and Shapefile (Tableau) formats. It contains over 28 million Green Taxi trips records registered between 2017 and 2020. The parameters included are:
 
 #### 454_calendar.csv
 > - **`Date`**: Date [`2018-02-03`]. (categorical)
