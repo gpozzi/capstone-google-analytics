@@ -93,6 +93,10 @@ A well crafted dashboard will greatly improve weekly planning and logistics, whi
 This way, the dashboard will positively impact all stakeholders involved while being aligned with the company's mission statement: to improve taxi and livery service in New York City.
 
 ## 2. PREPARE Phase
+
+### Data source
+We'll assume the data will be pulled from the Company's database. We'll use `SQL Server Management Studio` to write our queries.
+
 ### Data description
 The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/data-playground) ([**`original source`**](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)), it contains 6 files: `454_calendar.csv`, `taxi_zones.csv`, `2017_taxi_trips.csv`, `2018_taxi_trips.csv`, `2019_taxi_trips.csv`, `2020_taxi_trips.csv`, along with a geospatial map in TopoJSON (to be used with PowerBI) and Shapefile (Tableau) formats. It contains over 28 million Green Taxi trips records registered between 2017 and 2020. The parameters included are:
 
@@ -137,10 +141,18 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 > - **`trip_type`**: A code indicating whether the trip was a street-hail or a dispatch that is automatically assigned based on the metered rate in use but can be altered by the driver (1= Street-hail, 2= Dispatch). (categorical)
 > - **`congestion_surcharge`**: Congestion surcharge for trips that start, end or pass through the congestion zone in Manhattan, south of 96th street ($2.50 for non-shared trips in Yellow Taxis, $2.75 for non-shared trips in Green Taxis)". (categorical)
 
-### Data integrity
-
-
 ## 3. PROCESS Phase
+### Tools used
+A little preprocessing was done in **`Pandas`** because the DATETIME format of two columns was not consistent across all rows and tables and with this tool I could enforce its uniformity.
+
+Most data cleaning was done with **`SQL Server Management Studio`**, since we'll assume data is stored in the Company's database.
+
+### Data processing
+In the first place, the data will be extracted as CSV files to apply some preprocessing in Pandas. The steps involved will be documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/python.md)
+
+We'll then load the trips datasets into a database as 4 different tables. I didn't concatenate them in Pandas to keep the most part of the preprocessing in SQL.
+
+The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/sql.md)
 
 ## 4. ANALYZE Phase
 
