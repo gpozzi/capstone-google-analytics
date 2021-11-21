@@ -68,26 +68,63 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 
 # Analysis
 
+## Mario Maven's email
+> Welcome to the team!
+
+> We’ve been collecting trip data for ~4 years now, but without a proper analyst we haven’t been able to put it to good use. That's where you come in!
+
+> The raw data has some issues, so we'll need to make the following adjustments and assumptions to clean and prep the data:
+
+> - Let’s stick to trips that were NOT sent via “store and forward”
+> - I’m only interested in street-hailed trips paid by card or cash, with a standard rate
+> - We can remove any trips with dates before 2017 or after 2020, along with any trips with pickups or drop-offs into unknown zones
+> - Let’s assume any trips with no recorded passengers had 1 passenger
+> - If a pickup date/time is AFTER the drop-off date/time, let’s swap them
+> - We can remove trips lasting longer than a day, and any trips which show both a distance and fare amount of 0
+> - If you notice any records where the fare, taxes, and surcharges are ALL negative, please make them positive
+> - For any trips that have a fare amount but have a trip distance of 0, calculate the distance this way: (Fare amount - 2.5) / 2.5
+> - For any trips that have a trip distance but have a fare amount of 0, calculate the fare amount this way: 2.5 + (trip distance x 2.5)
+> - Once the data is cleaned up, I’m hoping you can build me a dashboard to help with weekly planning and logistics. For any given fiscal week, I'd like to be able to use historical data to answer the following questions:
+
+> - What's the average number of trips we can expect this week?
+> - What's the average fare per trip we expect to collect?
+> - What's the average distance traveled per trip?
+> - How do we expect trip volume to change, relative to last week?
+> - Which days of the week and times of the day will be busiest?
+> - What will likely be the most popular pick-up and drop-off locations?
+> I realize this is a lot to ask for, but this type of analysis will have a huge impact on our business!
+
+> Thanks in advance,
+
+> Mario Maven (Lead Dispatcher, NYC Green Taxis)
+
+
 
 ## ASK Phase
 
-### Protagonists:
-####  Me
-I've been recently hired as a Data Analyst for the New York City Taxi & Limousine Commission. It's my first week on the job.
-
+### Business context
 #### NYC Taxi & Limousine Commission
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nyctlc_logo.webp/300px-Nyctlc_logo.webp.png" width="250">
 The New York City Taxi and Limousine Commission (NYC TLC) is an agency of the New York City government that licenses and regulates the medallion taxis and for-hire vehicle industries, including app-based companies. The TLC's regulatory landscape includes medallion (yellow) taxicabs, green or Boro taxicabs, black cars (including both traditional and app-based services), community-based livery cars, commuter vans, paratransit vehicles (ambulettes), and some luxury limousines.
+
+#### Green taxis
+In the summer of 2013, New York City (NYC) introduced the first Boro Taxis to complement the Yellow Taxis. The Boro Taxis are a special class of taxis designed to increase the amount of taxi service provided to low demand areas of the city. Boro taxis were introduced because too little taxi service was provided in the outer boroughs. They have a restricted service area that prevents them from picking up passengers in Manhattan, requiring them to provide service to other areas of the city. Boro taxis operate alongside Yellow Taxis.
+
+![image](https://user-images.githubusercontent.com/52865532/142743814-decbd896-cc48-48e3-8fa3-9511ad6e6091.png)
+
+### Protagonists
+####  Me
+I've been recently hired as a Data Analyst for the New York City Taxi & Limousine Commission. It's my first week on the job.
 
 #### Mario Maven
 Mario is the Lead Dispatcher and the solicitor of the dashboard. Let's take a look at the job description of a typical Lead Dispatcher:
 
 > Taxi dispatchers, also called starters, send cabs off to customers and keep records of all road-service calls. They may stay in touch with the drivers while they are on the road, communicating by phone, computer, or two-way radio. They help drivers with problems and answer their questions. For example, they may tell drivers which routes to take to avoid traffic jams. When drivers are involved in accidents, dispatchers call for assistance and send other taxis to the customers.
 
+### Solution
 Business goal: achieve operational efficiency by efficiently allocating taxis to different zones so they will have to move less to pick up a passenger.
 Pain point: 
 
-Problem statement:
 A well crafted dashboard will greatly improve weekly planning and logistics, which is what the Lead Dispatcher will
 
 ## PREPARE Phase
