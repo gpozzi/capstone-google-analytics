@@ -69,7 +69,7 @@ The New York City Taxi and Limousine Commission (NYC TLC) is an agency of the Ne
 #### Green taxis
 In the summer of 2013, New York City (NYC) introduced the first Boro Taxis to complement the Yellow Taxis. The Boro Taxis are a special class of taxis designed to increase the amount of taxi service provided to **low demand** areas of the city. Boro taxis were introduced because too little taxi service was provided in the outer boroughs. They have a restricted service area that prevents them from picking up passengers in Manhattan, requiring them to provide service to other areas of the city. Boro taxis operate alongside Yellow Taxis.
 
-![image](https://user-images.githubusercontent.com/52865532/142743814-decbd896-cc48-48e3-8fa3-9511ad6e6091.png)
+<img align="center" src="https://user-images.githubusercontent.com/52865532/142743814-decbd896-cc48-48e3-8fa3-9511ad6e6091.png" width="250">
 
 ### Main stakeholders
 ####  Me
