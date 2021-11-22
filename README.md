@@ -25,6 +25,8 @@ Techniques applied:
 # Analysis
 
 ## Mario Maven's email
+For this challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher:
+
 > Welcome to the team!
 
 > We’ve been collecting trip data for ~4 years now, but without a proper analyst we haven’t been able to put it to good use. That's where you come in!
@@ -53,8 +55,6 @@ Techniques applied:
 > Thanks in advance,
 
 > Mario Maven (Lead Dispatcher, NYC Green Taxis)
-
-
 
 ## 1. ASK Phase
 
