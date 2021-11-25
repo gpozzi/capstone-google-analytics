@@ -85,7 +85,7 @@ Given the job description, Mario's main interest will be almost entirely operati
 ### Green taxi drivers
 Green taxi drivers will be indirectly impacted by the result of the present data analysis. They will be interested in maximizing the fare amount and reducing the time spent on the street without a passenger assigned.
 
-### Solution - Success criteria
+### Business task
 Judging by Mario's interest in only street-hailed trips, the weekly planning will have the objective of preassigning spots for cars that will be looking for passengers on the street. This way, Mario will allocate a specific amount of taxis for each day for each zone and taxi drivers will secure their spots.
 
 A well crafted dashboard will greatly improve weekly planning and logistics, which will in turn impact operational efficiency, by reducing the amount of time taxis spend on the street without a passenger assigned. A well planned day will avoid overcrowding of taxis in areas with more demand than supply and viceversa.
@@ -141,11 +141,28 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 > - **`trip_type`**: A code indicating whether the trip was a street-hail or a dispatch that is automatically assigned based on the metered rate in use but can be altered by the driver (1= Street-hail, 2= Dispatch). (categorical)
 > - **`congestion_surcharge`**: Congestion surcharge for trips that start, end or pass through the congestion zone in Manhattan, south of 96th street ($2.50 for non-shared trips in Yellow Taxis, $2.75 for non-shared trips in Green Taxis)". (categorical)
 
+### Data credibility and integrity
+- **Reliability** : This data is not so reliable since 2020 trends are affected by the COVID-19 outbreak which affected the level of service.
+
+- **Originality**: This data is owned and provided by the NYT&LC. Thus it's original and we can rely it wasn't modified from its collection to its actual usage.
+
+- **Comprehensiveness**: The data is comprehensive, since it provides all data needed to answer questions about taxi service usage.
+
+- **Current**: The data is recent (less than a year old) and does represent current trends.
+
+- **Cited**: As stated before, Amazon Mechanical Murk created the dataset, but we have no information on whether this is a credible source.
+
+The data integrity and credibility is clearly insufficient to provide reliable and comprehensive insights to Bellabeat. Therefore, the following analysis can only provide first hints and directions which should be verified through an analysis of a larger and much more reliable dataset.
+
 ## 3. PROCESS Phase
 ### Tools used
-A little preprocessing was done in **`Pandas`** because the DATETIME format of two columns was not consistent across all rows and tables and with this tool I could enforce its uniformity.
+I did some preprocessing in **`Pandas`** because the DATETIME format of two columns was not consistent across all rows and tables and with this tool I could enforce its uniformity.
 
-Most data cleaning was done with **`SQL Server Management Studio`**, since we'll assume data is stored in the Company's database.
+Most data cleaning was made with **`SQL Server Management Studio`**, since we'll assume data is stored in the Company's database.
+
+Data visualizations was done in **`Tableau Public`**.
+
+Dashboard background design was done with **`Figma`**, by using a free template and adapting it to this case's requirements.
 
 ### Data processing
 In the first place, the data will be extracted as CSV files to apply some preprocessing in Pandas. The steps involved will be documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/python.md)
