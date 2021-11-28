@@ -172,6 +172,20 @@ We'll then load the `taxi_trips_[year]` datasets into a database as 4 different 
 The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/sql.md)
 
 ## 4. ANALYZE Phase
+We loaded the Shapefile formats and took a look at the service zones Manhattan is divided into. We can see Manhattan is divided into 4 zones:
+- Yellow Zone
+- Boro Zone
+- EWR
+- Airports.
+
+As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro Zone".
+
+![image](https://user-images.githubusercontent.com/52865532/143787710-63cd4e3a-98cc-4b4e-a0c2-c70e35875315.png)
+
+The amount of trips is a little higher during the first half of the year, but since COVID-19 restrictions , the demand of cabs has plummeted. The demand is expected to stay low since a lot of workers have been starting to work from home and do not expect to return to Manhattan any time soon.
+
+![image](https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png)
+
 
 ## 5. SHARE Phase
 
