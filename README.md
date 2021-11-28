@@ -167,7 +167,7 @@ Dashboard background design was done with **`Figma`**, by using a free template 
 ### Data processing
 In the first place, the data will be extracted as CSV files to apply some preprocessing in Pandas. The steps involved will be documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/python.md)
 
-We'll then load the trips datasets into a database as 4 different tables. I didn't concatenate them in Pandas to keep the most part of the preprocessing in SQL.
+We'll then load the `taxi_trips_[year]` datasets into a database as 4 different tables. I didn't concatenate them in Pandas to keep the most part of the preprocessing in SQL.
 
 The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/sql.md)
 
