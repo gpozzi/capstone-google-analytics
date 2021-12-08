@@ -95,7 +95,8 @@ This way, the dashboard will positively impact all stakeholders involved while b
 Some other questions will be asked as well to show trends I've found exploring the data:
 - Does the hour of day impact demand?
 - Does the day of week impact demand?
-- 
+- What factors affect trip duration?
+- Are fares the same all over the time of day?
 
 ## 2. PREPARE Phase
 
@@ -187,11 +188,11 @@ As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro 
 
 ![image](https://user-images.githubusercontent.com/52865532/143787710-63cd4e3a-98cc-4b4e-a0c2-c70e35875315.png)
 
-The amount of trips is a little higher during the first half of the year, but since COVID-19 restrictions , the demand of cabs has plummeted. The demand is expected to stay low since a lot of workers have been starting to work from home and do not expect to return to Manhattan any time soon.
+The amount of trips is a little higher during the first half of the year, but since COVID-19 restrictions , the demand of the service has plummeted. I expect it to stay low (between the one shown on 2020 and 2019) since a lot of workers have been starting to work from home and do not intend to return to Manhattan any time soon.
 
 ![image](https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png)
 
-Cab demand is higher during worktime and higher towards 6:00 PM
+Cab demand is higher during worktime and more so towards 6:00 PM
 
 ![image](https://user-images.githubusercontent.com/52865532/145287048-dcb06850-d7ea-4add-a15c-38f11ccac675.png)
 
