@@ -185,23 +185,22 @@ We loaded the Shapefile formats and took a look at the service zones Manhattan i
 - Airports.
 
 As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro Zone".
-
-![image](https://user-images.githubusercontent.com/52865532/143787710-63cd4e3a-98cc-4b4e-a0c2-c70e35875315.png)
+<img src="https://user-images.githubusercontent.com/52865532/143787710-63cd4e3a-98cc-4b4e-a0c2-c70e35875315.png" width="500">
 
 The amount of trips is a little higher during the first half of the year, but since COVID-19 restrictions , the demand of the service has plummeted. I expect it to stay low (between the one shown on 2020 and 2019) since a lot of workers have been starting to work from home and do not intend to return to Manhattan any time soon.
 
-![image](https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png)
+<img src="https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png" width="500">
 
 Cab demand is higher during worktime and more so towards 6:00 PM
 
-![image](https://user-images.githubusercontent.com/52865532/145287048-dcb06850-d7ea-4add-a15c-38f11ccac675.png)
+<img src="https://user-images.githubusercontent.com/52865532/145287048-dcb06850-d7ea-4add-a15c-38f11ccac675.png" width="500">
 
 Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
-![image](https://user-images.githubusercontent.com/52865532/145290468-af6c9275-9184-42a1-bdc7-3d0cfc14b238.png)
+<img src="https://user-images.githubusercontent.com/52865532/145290468-af6c9275-9184-42a1-bdc7-3d0cfc14b238.png" width="500">
+
 
 With 
-![image](https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png)
-
+<img src="https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png" width="500">
 
 ## 5. SHARE Phase
 
