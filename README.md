@@ -92,6 +92,11 @@ A well crafted dashboard will greatly improve weekly planning and logistics, whi
 
 This way, the dashboard will positively impact all stakeholders involved while being aligned with the company's mission statement: to improve taxi and livery service in New York City.
 
+Some other questions will be asked as well to show trends I've found exploring the data:
+- Does the hour of day impact demand?
+- Does the day of week impact demand?
+- 
+
 ## 2. PREPARE Phase
 
 ### Data source
@@ -185,6 +190,16 @@ As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro 
 The amount of trips is a little higher during the first half of the year, but since COVID-19 restrictions , the demand of cabs has plummeted. The demand is expected to stay low since a lot of workers have been starting to work from home and do not expect to return to Manhattan any time soon.
 
 ![image](https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png)
+
+Cab demand is higher during worktime and higher towards 6:00 PM
+
+![image](https://user-images.githubusercontent.com/52865532/145287048-dcb06850-d7ea-4add-a15c-38f11ccac675.png)
+
+Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
+![image](https://user-images.githubusercontent.com/52865532/145290468-af6c9275-9184-42a1-bdc7-3d0cfc14b238.png)
+
+With 
+![image](https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png)
 
 
 ## 5. SHARE Phase
