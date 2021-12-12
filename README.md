@@ -185,7 +185,7 @@ We loaded the Shapefile formats and took a look at the service zones Manhattan i
 - Airports.
 
 As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro Zone".
-<img src="https://user-images.githubusercontent.com/52865532/143787710-63cd4e3a-98cc-4b4e-a0c2-c70e35875315.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/145698251-26e75272-976f-4da3-9303-2a0866b419a8.png" width="700">
 
 The amount of trips is a little higher during the first half of the year, but since COVID-19 restrictions , the demand of the service has plummeted. I expect it to stay low (between the one shown on 2020 and 2019) since a lot of workers have been starting to work from home and do not intend to return to Manhattan any time soon.
 
