@@ -148,7 +148,7 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 > - **`congestion_surcharge`**: Congestion surcharge for trips that start, end or pass through the congestion zone in Manhattan, south of 96th street ($2.50 for non-shared trips in Yellow Taxis, $2.75 for non-shared trips in Green Taxis)". (categorical)
 
 ### Data credibility and integrity
-- **Reliability** : This data is not so reliable since 2020 trends are severely affected by the COVID-19 outbreak which impacted on the level of service.
+- **Reliability** : This dataset may not be so reliable since 2020 trends are severely affected by the COVID-19 outbreak which greatly impacted on the level of service. Special consideration should be taken into which trends may reverse and which ones may stay.
 
 - **Originality**: This data is owned and provided by the NYT&LC. Thus it's original and we can rely it wasn't modified from its collection to its actual usage.
 
@@ -158,7 +158,7 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 
 - **Cited**: this dataset has been cited and published on [NYC's open data site](https://data.cityofnewyork.us/Transportation/2016-Green-Taxi-Trip-Data/hvrh-b6nb).
 
-After checking previously stated bullet points, we can see that the data shows a high level of integrity and credibility. We should, however, take into account that 2020's data will be highly impacted by COVID-19, in which we expect to see cab rides severely plummeting because of the fear of infection, widespread adoption of home office throughout Manhattan and lockdowns that restricted citizen's mobility.
+After checking previously stated bullet points, we can see that the data shows a high level of integrity and credibility. We should, however, take into account that 2020's data will be highly impacted by COVID-19, in which we expect to see cab rides severely plummeting because of the fear of infection, widespread adoption of home office throughout Manhattan and lockdowns that restricted citizen's mobility. A revision of this analysis should be made to confirm the conclusions made.
 
 ## 3. PROCESS Phase
 ### Tools used
@@ -187,19 +187,27 @@ We loaded the Shapefile formats and took a look at the service zones Manhattan i
 As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro Zone".
 <img src="https://user-images.githubusercontent.com/52865532/145698251-26e75272-976f-4da3-9303-2a0866b419a8.png" width="700">
 
-The amount of trips is a little higher during the first half of the year, but since COVID-19 restrictions , the demand of the service has plummeted. I expect it to stay low (between the one shown on 2020 and 2019) since a lot of workers have been starting to work from home and do not intend to return to Manhattan any time soon.
+The amount of trips done is a little higher during the first half of the year, but, as we stated before, the demand of the service has plummeted. I expect it to stay low (between the one shown on 2020 and 2019) since a lot of workers have been starting to work from home and do not intend to return to Manhattan any time soon.
 
 <img src="https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png" width="700">
 
-Cab demand is higher during worktime and more so towards 6:00 PM
+As for the payment type variable, we can there was a trend since november 2018 to pay more in cash, which appears to have reversed in favor of contactless payment types apparently because of the fear of infection.
+
+<img src="https://user-images.githubusercontent.com/52865532/146677750-13964583-12ec-4ba6-8c00-0c105ec10861.png" width="700">
+
+Cab demand is higher during worktime and more so towards 6:00 PM. 
 
 <img src="https://user-images.githubusercontent.com/52865532/145287048-dcb06850-d7ea-4add-a15c-38f11ccac675.png" width="700">
+
+As for the location of most of the demand, we'll take a snapshot of the amount of trips taken at 18:00 which is the peak of it.
+
+<img src="https://user-images.githubusercontent.com/52865532/146680553-2c4ea9c5-6654-4c02-b2ae-b4e14f7c435b.png" width="700">
 
 Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
 <img src="https://user-images.githubusercontent.com/52865532/145290468-af6c9275-9184-42a1-bdc7-3d0cfc14b238.png" width="700">
 
+Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar.
 
-With 
 <img src="https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png" width="700">
 
 ## 5. SHARE Phase
