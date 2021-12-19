@@ -92,7 +92,7 @@ WHERE
 	trip_distance > 0
 ```
 
-When the pickup datetime comes after the dropoff datetime, we'll assume it hasn't been properly recorded.
+When the pickup datetime comes after the dropoff datetime, we'll assume it hasn't been properly recorded and reverse it.
 ```sql
 DECLARE @tempcol AS datetime
 UPDATE
