@@ -203,6 +203,20 @@ As for the location of most of the demand, we'll take a snapshot of the amount o
 
 <img src="https://user-images.githubusercontent.com/52865532/146680553-2c4ea9c5-6654-4c02-b2ae-b4e14f7c435b.png" width="700">
 
+### Area 1 (Northern Manhattan)
+Area 1 is mostly Harlem / northern Manhattan, which is the northern access. We can see a demand of between 1.000 and 2.000 trips
+
+<img src="https://user-images.githubusercontent.com/52865532/146680647-718596f0-191d-41fe-ac2e-637991515661.png" width="700">
+
+### Area 2 (Brooklyn)
+Area 2 is the southern access to Manhattan, done via Brooklyn and Manhattan Bridges.
+
+<img src="https://user-images.githubusercontent.com/52865532/146680815-3ed9fe09-3c66-41e1-bf87-ad568a83a9b6.png" width="700">
+
+### Area 3 (Queens)
+Area 3 concentrates most of the demand around the neighborhoods closest to the fast accesses to Manhattan (Grand Central Parkway and Queensboro Bridge)
+<img src="https://user-images.githubusercontent.com/52865532/146681034-a03244b5-8398-4c8f-b064-48fbc3d4816c.png" width="700">
+
 Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
 <img src="https://user-images.githubusercontent.com/52865532/145290468-af6c9275-9184-42a1-bdc7-3d0cfc14b238.png" width="700">
 
