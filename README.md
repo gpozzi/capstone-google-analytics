@@ -42,7 +42,7 @@ For this challenge, you’ll be playing the role of a new Data Analyst for the N
 > - If you notice any records where the fare, taxes, and surcharges are ALL negative, please make them positive
 > - For any trips that have a fare amount but have a trip distance of 0, calculate the distance this way: (Fare amount - 2.5) / 2.5
 > - For any trips that have a trip distance but have a fare amount of 0, calculate the fare amount this way: 2.5 + (trip distance x 2.5)
-> - Once the data is cleaned up, I’m hoping you can build me a dashboard to help with weekly planning and logistics. For any given fiscal week, I'd like to be able to use historical data to answer the following questions:
+> Once the data is cleaned up, I’m hoping you can build me a dashboard to help with weekly planning and logistics. For any given fiscal week, I'd like to be able to use historical data to answer the following questions:
 
 > - What's the average number of trips we can expect this week?
 > - What's the average fare per trip we expect to collect?
