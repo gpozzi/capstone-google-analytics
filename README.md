@@ -198,13 +198,17 @@ As for the payment type variable, since november 2018 cash usage is being replac
 
 Cab demand is higher during worktime and more so towards 6:00 PM. 
 
-<img src="https://user-images.githubusercontent.com/52865532/145287048-dcb06850-d7ea-4add-a15c-38f11ccac675.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/147880579-f239ca4d-a1ef-45a4-aa09-d9113806c540.png" width="700">
 
 Significantly longer trips take place at 5:00 - 6:00 AM, which is the time people commute to work. This trend does not mirror at 18:00 PM which is the time at which people return home. This is because Boro taxis cannot pick up passengers in Manhattan and so the trip back home is done mainly on yellow cabs.
 
 <img src="https://user-images.githubusercontent.com/52865532/147880239-c4547d86-7c0b-497a-85d8-bdcfd34418f5.png" width="700">
 
-As for the location of most of the demand, we'll take a snapshot of the amount of trips taken at 18:00 which is the peak of it.
+Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
+
+<img src="https://user-images.githubusercontent.com/52865532/147880638-422db705-a3d8-40d3-a63c-5aa87f30b309.png" width="700">
+
+As for the location of most of the demand, we'll take a snapshot of the amount of trips that take place at 18:00 which is the peak of it.
 
 <img src="https://user-images.githubusercontent.com/52865532/146680553-2c4ea9c5-6654-4c02-b2ae-b4e14f7c435b.png" width="700">
 
@@ -220,10 +224,8 @@ Area 2 is the southern access to Manhattan, done via Brooklyn and Manhattan Brid
 
 ### Area 3 (Queens)
 Area 3 concentrates most of the demand around the neighborhoods closest to the fast accesses to Manhattan (Grand Central Parkway and Queensboro Bridge)
-<img src="https://user-images.githubusercontent.com/52865532/146681034-a03244b5-8398-4c8f-b064-48fbc3d4816c.png" width="700">
 
-Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
-<img src="https://user-images.githubusercontent.com/52865532/145290468-af6c9275-9184-42a1-bdc7-3d0cfc14b238.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/146681034-a03244b5-8398-4c8f-b064-48fbc3d4816c.png" width="700">
 
 Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar.
 
