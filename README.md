@@ -194,7 +194,7 @@ The amount of trips done is a little higher during the first half of the year, b
 
 As for the payment type variable, since november 2018 cash usage is being replaced in favor of contactless payment types apparently because of the fear of infection.
 
-<img src="https://user-images.githubusercontent.com/52865532/146677750-13964583-12ec-4ba6-8c00-0c105ec10861.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/147880786-94fb34e5-bf6a-43c1-af10-dcd7258af78b.png" width="700">
 
 Cab demand is higher during worktime and more so towards 6:00 PM. 
 
