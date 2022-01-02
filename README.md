@@ -188,17 +188,21 @@ We loaded the Shapefile formats and took a look at the service zones Manhattan i
 As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro Zone".
 <img src="https://user-images.githubusercontent.com/52865532/145698251-26e75272-976f-4da3-9303-2a0866b419a8.png" width="700">
 
-The amount of trips done is a little higher during the first half of the year, but, as we stated before, the demand of the service has plummeted. I expect it to stay low (between the one shown on 2020 and 2019) since a lot of workers have been starting to work from home and do not intend to return to Manhattan any time soon.
+The amount of trips done is a little higher during the first half of the year, but, as we stated before, the demand of the service has recently plummeted because of the COVID-19 outbreak. It is expected to stay low (between the one shown on 2020 and 2019) since a lot of people have been starting to work from home and do not intend to return to Manhattan any time soon.
 
 <img src="https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png" width="700">
 
-As for the payment type variable, we can there was a trend since november 2018 to pay more in cash, which appears to have reversed in favor of contactless payment types apparently because of the fear of infection.
+As for the payment type variable, since november 2018 cash usage is being replaced in favor of contactless payment types apparently because of the fear of infection.
 
 <img src="https://user-images.githubusercontent.com/52865532/146677750-13964583-12ec-4ba6-8c00-0c105ec10861.png" width="700">
 
 Cab demand is higher during worktime and more so towards 6:00 PM. 
 
 <img src="https://user-images.githubusercontent.com/52865532/145287048-dcb06850-d7ea-4add-a15c-38f11ccac675.png" width="700">
+
+Significantly longer trips take place at 5:00 - 6:00 AM, which is the time people commute to work. This trend does not mirror at 18:00 PM which is the time at which people return home. This is because Boro taxis cannot pick up passengers in Manhattan and so the trip back home is done mainly on yellow cabs.
+
+<img src="https://user-images.githubusercontent.com/52865532/147880239-c4547d86-7c0b-497a-85d8-bdcfd34418f5.png" width="700">
 
 As for the location of most of the demand, we'll take a snapshot of the amount of trips taken at 18:00 which is the peak of it.
 
