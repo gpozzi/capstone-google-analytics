@@ -202,9 +202,13 @@ Cab demand is higher during worktime and peaks towards 6:00 PM.
 
 <img src="https://user-images.githubusercontent.com/52865532/147894552-92458ed8-e2ca-42c6-8c47-01ed2a415063.png" width="700">
 
-Significantly longer trips take place at 5:00 - 6:00 AM, which is the time people commute to work. This trend does not mirror at 18:00 PM which is the time at which people return home. This is because Boro taxis cannot pick up passengers in Manhattan and so the trip back home is done mainly on yellow cabs.
+Significantly longer trips take place at 5:00 - 6:00 AM, which is the time people commute to work. This trend does not mirror at 18:00 PM which is the time at which people return home.
 
-Since, as stated before, more trips take place at 18:00 and they are shorter we can infer when returning home people combine transportation methods and take cabs as last mile transportation. We can hypothesize in the morning people take cabs to get to work faster and back home they take subway + cabs or bus + cabs because they're cheaper and are not mostly in a hurry.
+Hypothesis worth further exploration:
+
+1- Boro taxis cannot pick up passengers in Manhattan and so the trip back home is done mainly on yellow cabs.
+
+2- When people return home they combine transportation methods and take cabs as last mile solution. We can hypothesize in the morning people take cabs to get to work faster to be able to sleep more and back home they take subway + cabs or bus + cabs because they're not mostly in a hurry and can save money with cheaper means of transportation.
 
 <img src="https://user-images.githubusercontent.com/52865532/147880239-c4547d86-7c0b-497a-85d8-bdcfd34418f5.png" width="700">
 
@@ -212,7 +216,7 @@ Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5
 
 <img src="https://user-images.githubusercontent.com/52865532/147880638-422db705-a3d8-40d3-a63c-5aa87f30b309.png" width="700">
 
-As we can infer for the length of the trips, the most expensive ones take place at around 4:00 - 6:00 AM.
+As we can infer for the length of the trips, the ones that are significantly more expensive take place at around 4:00 - 6:00 AM.
 
 <img src="https://user-images.githubusercontent.com/52865532/147894488-2fe9016e-b080-4bdf-91d7-157d56925fb4.png" width="700">
 
@@ -237,7 +241,7 @@ Area 3 concentrates most of the demand around the neighborhoods closest to the f
 
 We also clustered neighborhoods into three groups to see which ones concentrate most trips:
 
-<img src="https://user-images.githubusercontent.com/52865532/147894311-47d99340-eb3c-4179-8a0e-9aa06d43401b.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/147894311-47d99340-eb3c-4179-8a0e-9aa06d43401b.png" width="200">
 
 And we plotted all three groups onto this map
 
