@@ -226,7 +226,7 @@ We can infer for the length of the trips that the ones that are significantly mo
 
 We also calculated the ratio [**`tip_amount`**]/ [**`trip_distance`**] to see at which time are passengers more generous with taxi drivers. Calculating this ratio may be useful to be able to identify the most profitable hours to allocate the best taxis (which may be the cleanest, with best service) as a reward and incentivize service improvement.
 
-<img src="https://user-images.githubusercontent.com/52865532/147895131-0585be9d-d04a-4bcd-bbd8-dfeeb005c0dd.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/147895641-955b4397-ed6d-4221-80a4-74a3b78bf26f.png" width="700">
 
 As for the location of most of the demand, we'll take a snapshot of the amount of trips that take place at 18:00 which is the peak of it.
 
@@ -256,9 +256,17 @@ And we plotted all three groups onto this map
 <img src="https://user-images.githubusercontent.com/52865532/147894340-1b5bb88e-e1b3-496a-ad0e-9ab23cf87ad3.png" width="700">
 
 ## 5. SHARE Phase
-In this phase, I'll be sharing a Google Sheets presentation which you'll be able to find [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
+In this phase, I'll be sharing a Google Slides presentation that can be seen [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
 
 ## 6. ACT Phase
 As a closing to this project, I'll write a response email to Mario Maven with the information solicited and some recomendations
 
-> 
+> Hey Mario!
+
+> I'm writing this email to let you know I've finished the task you assigned me. It was tough, but I learned and enjoyed it a lot.
+
+> I've also added some other questions to the ones you asked me because I find they can be useful to you to be able to further improve taxi service.
+
+> If you want to, we can have a chat via zoom and I can further explain some things I've seen. I've prepared a Slides presentation you'll be able to see [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
+
+> [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)'s your Tableau Dashboard you asked me to help you with your weekly planning.
