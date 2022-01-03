@@ -212,30 +212,38 @@ Hypothesis worth further exploration:
 
 <img src="https://user-images.githubusercontent.com/52865532/147880239-c4547d86-7c0b-497a-85d8-bdcfd34418f5.png" width="700">
 
+Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar and stay longer in Manhattan.
+
+<img src="https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png" width="700">
+
 Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
 
 <img src="https://user-images.githubusercontent.com/52865532/147880638-422db705-a3d8-40d3-a63c-5aa87f30b309.png" width="700">
 
-As we can infer for the length of the trips, the ones that are significantly more expensive take place at around 4:00 - 6:00 AM.
+We can infer for the length of the trips that the ones that are significantly more expensive take place at around 4:00 - 6:00 AM.
 
 <img src="https://user-images.githubusercontent.com/52865532/147894488-2fe9016e-b080-4bdf-91d7-157d56925fb4.png" width="700">
+
+We also calculated the ratio **[tip_amount]**/ **[trip_distance]** to see at which time are passengers more generous with taxi drivers. Calculating this ratio may be useful to be able to identify the most profitable hours to allocate the best taxis (which may be the cleanest, with best service) as a reward and incentivize service improvement.
+
+<img src="https://user-images.githubusercontent.com/52865532/147895131-0585be9d-d04a-4bcd-bbd8-dfeeb005c0dd.png" width="700">
 
 As for the location of most of the demand, we'll take a snapshot of the amount of trips that take place at 18:00 which is the peak of it.
 
 <img src="https://user-images.githubusercontent.com/52865532/146680553-2c4ea9c5-6654-4c02-b2ae-b4e14f7c435b.png" width="700">
 
 ### Area 1 (Northern Manhattan)
-Area 1 is mostly Harlem / northern Manhattan, which is the northern access. We can see a demand of between 1.000 and 2.000 trips
+Area 1 is mostly Harlem / northern Manhattan, which is the northern access. We can see an average hourly demand of between 1.800 and 3.100 trips
 
 <img src="https://user-images.githubusercontent.com/52865532/146680647-718596f0-191d-41fe-ac2e-637991515661.png" width="700">
 
 ### Area 2 (Brooklyn)
-Area 2 is the southern access to Manhattan, done via Brooklyn and Manhattan Bridges.
+Area 2 is the southern access to Manhattan, done via Brooklyn and Manhattan Bridges. We can see an average hourly demand of between 1.300 and 1.600 trips
 
 <img src="https://user-images.githubusercontent.com/52865532/146680815-3ed9fe09-3c66-41e1-bf87-ad568a83a9b6.png" width="700">
 
 ### Area 3 (Queens)
-Area 3 concentrates most of the demand around the neighborhoods closest to the fast accesses to Manhattan (Grand Central Parkway and Queensboro Bridge)
+Area 3 concentrates most of the demand around the neighborhoods closest to the fast accesses to Manhattan (Grand Central Parkway and Queensboro Bridge). The average hourly demand is between 1.100 and 2.200 trips
 
 <img src="https://user-images.githubusercontent.com/52865532/146681034-a03244b5-8398-4c8f-b064-48fbc3d4816c.png" width="700">
 
@@ -247,10 +255,10 @@ And we plotted all three groups onto this map
 
 <img src="https://user-images.githubusercontent.com/52865532/147894340-1b5bb88e-e1b3-496a-ad0e-9ab23cf87ad3.png" width="700">
 
-Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar.
-
-<img src="https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png" width="700">
-
 ## 5. SHARE Phase
+In this phase, I'll be sharing a Google Sheets presentation which you'll be able to find [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
 
 ## 6. ACT Phase
+As a closing to this project, I'll write a response email to Mario Maven with the information solicited and some recomendations
+
+> 
