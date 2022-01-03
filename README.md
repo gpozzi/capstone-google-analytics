@@ -200,7 +200,7 @@ As for the payment type variable, since the start of the pandemic, cash usage is
 
 Cab demand is higher during worktime and peaks towards 6:00 PM. 
 
-<img src="https://user-images.githubusercontent.com/52865532/147880579-f239ca4d-a1ef-45a4-aa09-d9113806c540.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/147894552-92458ed8-e2ca-42c6-8c47-01ed2a415063.png" width="700">
 
 Significantly longer trips take place at 5:00 - 6:00 AM, which is the time people commute to work. This trend does not mirror at 18:00 PM which is the time at which people return home. This is because Boro taxis cannot pick up passengers in Manhattan and so the trip back home is done mainly on yellow cabs.
 
@@ -211,6 +211,10 @@ Since, as stated before, more trips take place at 18:00 and they are shorter we 
 Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
 
 <img src="https://user-images.githubusercontent.com/52865532/147880638-422db705-a3d8-40d3-a63c-5aa87f30b309.png" width="700">
+
+As we can infer for the length of the trips, the most expensive ones take place at around 4:00 - 6:00 AM.
+
+<img src="https://user-images.githubusercontent.com/52865532/147894488-2fe9016e-b080-4bdf-91d7-157d56925fb4.png" width="700">
 
 As for the location of most of the demand, we'll take a snapshot of the amount of trips that take place at 18:00 which is the peak of it.
 
