@@ -263,10 +263,22 @@ As a closing to this project, I'll write a response email to Mario Maven with th
 
 > Hey Mario!
 
-> I'm writing this email to let you know I've finished the task you assigned me. It was tough, but I learned and enjoyed it a lot.
+> I'm writing this email to let you know I've finished the task you assigned me. It was tough, but I learned from it and enjoyed it a lot.
 
-> I've also added some other questions to the ones you asked me because I find they can be useful to you to be able to further improve taxi service.
+> I've also added some other insights to the ones you asked me because I find they can be useful to you as the Lead Dispatcher.
 
-> If you want to, we can have a chat via zoom and I can further explain some things I've seen. I've prepared a Slides presentation you'll be able to see [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
+> If you want to, we can have a 15 minutes meeting via Zoom and I can further explain some things I've seen. I've prepared a Slides presentation with the key insights which you'll be able to see [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
 
-> [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)'s your Tableau Dashboard you asked me to help you with your weekly planning.
+> [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)'s your Tableau Dashboard you asked me to help you with your weekly planning. I've designed the background with Figma and I hope you find it visually appealing and useful.
+
+> Here's some things I recommend based on the data I've been analyzing:
+
+> - Use the clusters I've created to keep track of the different neighborhoods. High demand zones are critical and service shortages should be avoided at all costs since they'll affect a lot of people. Also, you'll be able to reward the best (cleanest, most polite, with best drivers, etc) taxis with these zones to incentivize improvement of the service. Low demand zones can be monitored with less frequency.
+
+> - You can also assign the best taxis by assigning them the hours that tend to tip more
+
+> - It would be great to incentivize people to stay 1-2 more hours in Manhattan to flatten a little demand at peak hours to avoid having too many cars on the street (or service shortages). Maybe we can consider partnering with pubs to offer discounts at peak hours? Or also partner with gyms to make people stay after work? We can be creative about this because I find this critical. Peaks generate inefficient resources allocation
+
+> - Cashless payment started to gain traction. Maybe we can take advantage of the mass adoption of electronic means of payment to aim for 80% cashless by partnering with more PSPs (Payment Service Providers) such as Paypal / Stripe / PayU / etc and charging a small service fee for cash payment? This can improve taxi service since it's faster to charge, it avoids physical contact and reduces admin time.
+
+> - With all this being said, I'd take all these recommendations with a pinch of salt since a lot has changed in 2020. We'll have to add 2021 data and implement a dashboard in real time to check if a lot of these trends stick after COVID. I expect to see a process of decentralization with a lot of workplaces migrating outside the island with a reduction of trips from and to Manhattan.
