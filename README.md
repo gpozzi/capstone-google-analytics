@@ -224,7 +224,7 @@ We can infer for the length of the trips that the ones that are significantly mo
 
 <img src="https://user-images.githubusercontent.com/52865532/147894488-2fe9016e-b080-4bdf-91d7-157d56925fb4.png" width="700">
 
-We also calculated the ratio **[tip_amount]**/ **[trip_distance]** to see at which time are passengers more generous with taxi drivers. Calculating this ratio may be useful to be able to identify the most profitable hours to allocate the best taxis (which may be the cleanest, with best service) as a reward and incentivize service improvement.
+We also calculated the ratio [**`tip_amount`**]/ [**`trip_distance`**] to see at which time are passengers more generous with taxi drivers. Calculating this ratio may be useful to be able to identify the most profitable hours to allocate the best taxis (which may be the cleanest, with best service) as a reward and incentivize service improvement.
 
 <img src="https://user-images.githubusercontent.com/52865532/147895131-0585be9d-d04a-4bcd-bbd8-dfeeb005c0dd.png" width="700">
 
