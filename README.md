@@ -93,11 +93,10 @@ A well crafted dashboard will greatly improve weekly planning and logistics, whi
 
 This way, the dashboard will positively impact all stakeholders involved while being aligned with the company's mission statement: to improve taxi and livery service in New York City.
 
-Some other questions will be asked as well to show trends I've found exploring the data:
-- Does the hour of day impact demand?
-- Does the day of week impact demand?
-- What factors affect trip duration?
-- Are fares the same all over the time of day?
+Some other questions will be asked as well to look for relevant insights:
+- Do fares depend on the time of day?
+- Has the payment type changed over the course of the years?
+- Is there a time in which tips are more generous?
 
 ## 2. PREPARE Phase
 
@@ -179,6 +178,9 @@ We'll then load the `taxi_trips_[year]` datasets into a database as 4 different 
 The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/sql.md)
 
 ## 4. ANALYZE Phase
+
+Now that we know a little about the data, we'll explore the most relevant insights as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
+
 We loaded the Shapefile formats and took a look at the service zones Manhattan is divided into. We can see Manhattan is divided into 4 zones:
 - Yellow Zone
 - Boro Zone
@@ -192,15 +194,17 @@ The amount of trips done is a little higher during the first half of the year, b
 
 <img src="https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png" width="700">
 
-As for the payment type variable, since november 2018 cash usage is being replaced in favor of contactless payment types apparently because of the fear of infection.
+As for the payment type variable, since the start of the pandemic, cash usage is being replaced in favor of contactless payment types apparently because of fear of of COVID-19 being transmitted through physical money.
 
 <img src="https://user-images.githubusercontent.com/52865532/147880786-94fb34e5-bf6a-43c1-af10-dcd7258af78b.png" width="700">
 
-Cab demand is higher during worktime and more so towards 6:00 PM. 
+Cab demand is higher during worktime and peaks towards 6:00 PM. 
 
 <img src="https://user-images.githubusercontent.com/52865532/147880579-f239ca4d-a1ef-45a4-aa09-d9113806c540.png" width="700">
 
 Significantly longer trips take place at 5:00 - 6:00 AM, which is the time people commute to work. This trend does not mirror at 18:00 PM which is the time at which people return home. This is because Boro taxis cannot pick up passengers in Manhattan and so the trip back home is done mainly on yellow cabs.
+
+Since, as stated before, more trips take place at 18:00 and they are shorter we can infer when returning home people combine transportation methods and take cabs as last mile transportation. We can hypothesize in the morning people take cabs to get to work faster and back home they take subway + cabs or bus + cabs because they're cheaper and are not mostly in a hurry.
 
 <img src="https://user-images.githubusercontent.com/52865532/147880239-c4547d86-7c0b-497a-85d8-bdcfd34418f5.png" width="700">
 
@@ -226,6 +230,14 @@ Area 2 is the southern access to Manhattan, done via Brooklyn and Manhattan Brid
 Area 3 concentrates most of the demand around the neighborhoods closest to the fast accesses to Manhattan (Grand Central Parkway and Queensboro Bridge)
 
 <img src="https://user-images.githubusercontent.com/52865532/146681034-a03244b5-8398-4c8f-b064-48fbc3d4816c.png" width="700">
+
+We also clustered neighborhoods into three groups to see which ones concentrate most trips:
+
+<img src="https://user-images.githubusercontent.com/52865532/147894311-47d99340-eb3c-4179-8a0e-9aa06d43401b.png" width="700">
+
+And we plotted all three groups onto this map
+
+<img src="https://user-images.githubusercontent.com/52865532/147894340-1b5bb88e-e1b3-496a-ad0e-9ab23cf87ad3.png" width="700">
 
 Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar.
 
