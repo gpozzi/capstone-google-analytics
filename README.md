@@ -22,7 +22,15 @@ Techniques applied:
 - `Data Cleaning`
 - `Dashboard design (With Figma)`
 
-# Analysis
+Deliverables:
+- A clear statement of the business task
+- A description of all data sources used
+- Documentation of any cleaning or manipulation of data
+- A summary of the analysis done
+- Supporting visualizations and key findings
+- Five relevant recommendations based on my analysis
+
+# Main
 
 ## Mario Maven's email
 For this challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher:
@@ -273,11 +281,11 @@ As a closing to this project, I'll write a response email to Mario Maven with th
 
 > Here's some things I recommend based on the data I've been analyzing:
 
-> - Use the clusters I've created to keep track of the different neighborhoods. High demand zones are critical and service shortages should be avoided at all costs since they'll affect a lot of people. Also, you'll be able to reward the best (cleanest, most polite, with best drivers, etc) taxis with these zones to incentivize improvement of the service. Low demand zones can be monitored with less frequency.
+> - Use the clusters I've created to keep track of the different neighborhoods. High demand zones are critical and service shortages should be avoided at all costs since they'll affect a lot of people. I'd keep a close eye into these zones and monitor them with more frequency. Low demand zones can be monitored less frequently. Also, knowing the areas where there are more trips you'll be able to reward the best (cleanest, most polite, with best drivers, etc) taxis with these zones to incentivize improvement of the service.
 
-> - You can also assign the best taxis by assigning them the hours that tend to tip more
+> - You can also assign the best taxis to the hours that tend to tip more.
 
-> - It would be great to incentivize people to stay 1-2 more hours in Manhattan to flatten a little demand at peak hours to avoid having too many cars on the street (or service shortages). Maybe we can consider partnering with pubs to offer discounts at peak hours? Or also partner with gyms to make people stay after work? We can be creative about this because I find this critical. Peaks generate inefficient resources allocation
+> - It would be great to incentivize people to stay 1-2 more hours in Manhattan to flatten a little demand at peak hours. With a flatter demand curve, you'd avoid having too many cars on the street for a couple of hours and reduce the possibility of service shortages. Maybe we can consider partnering with pubs to offer discounts at peak hours? Or also partner with gyms to make people stay after work? We can be creative about this because I find this critical. Peaks generate inefficient resources allocation
 
 > - Cashless payment started to gain traction. Maybe we can take advantage of the mass adoption of electronic means of payment to aim for 80% cashless by partnering with more PSPs (Payment Service Providers) such as Paypal / Stripe / PayU / etc and charging a small service fee for cash payment? This can improve taxi service since it's faster to charge, it avoids physical contact and reduces admin time.
 
