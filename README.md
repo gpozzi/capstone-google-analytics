@@ -200,7 +200,7 @@ As we stated in ASK phase, Green Cabs are only able to hail passengers in "Boro 
 
 The amount of trips done is a little higher during the first half of the year, but, as we stated before, the demand of the service has recently plummeted because of the COVID-19 outbreak. It is expected to stay low (between the one shown on 2020 and 2019) since a lot of people have been starting to work from home and do not intend to return to Manhattan any time soon.
 
-<img src="https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/148699214-e5bc437c-b47b-4c51-aa34-c928ac76f832.png" width="700">
 
 As for the payment type variable, since the start of the pandemic, cash usage is being replaced in favor of contactless payment types [apparently because of fear of of COVID-19 being transmitted through physical money](https://www.inquirer.com/business/retail/coronavirus-surge-cashless-mobile-payments-20200706.html).
 
@@ -220,7 +220,7 @@ Hypothesis worth further exploration:
 
 <img src="https://user-images.githubusercontent.com/52865532/147880239-c4547d86-7c0b-497a-85d8-bdcfd34418f5.png" width="700">
 
-Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar and stay longer in Manhattan.
+Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar and stay longer in Manhattan those days.
 
 <img src="https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png" width="700">
 
@@ -232,7 +232,7 @@ We can infer for the length of the trips that the ones that are significantly mo
 
 <img src="https://user-images.githubusercontent.com/52865532/147894488-2fe9016e-b080-4bdf-91d7-157d56925fb4.png" width="700">
 
-We also calculated the ratio [**`tip_amount`**]/ [**`trip_distance`**] to see at which time are passengers more generous with taxi drivers. Calculating this ratio may be useful to be able to identify the most profitable hours to allocate the best taxis (which may be the cleanest, with best service) as a reward and incentivize service improvement.
+The ratio [**`tip_amount`**]/ [**`trip_distance`**] has been calculated to see at which time are passengers more generous with taxi drivers. It may be useful to be able to identify the most profitable hours to allocate the best taxis (which may be the cleanest, with best service) as a reward and incentivize service improvement.
 
 <img src="https://user-images.githubusercontent.com/52865532/147895641-955b4397-ed6d-4221-80a4-74a3b78bf26f.png" width="700">
 
