@@ -170,7 +170,7 @@ After checking previously stated bullet points, we can see that the data shows a
 
 ## 3. PROCESS Phase
 ### Tools used
-I did some preprocessing in **`Pandas`** because the DATETIME format of two columns was not consistent across all rows and tables and with this tool I could enforce its uniformity.
+Some preprocessing in **`Pandas`** has been done because the DATETIME format of two columns was not consistent across all rows and tables and with this tool I could enforce its uniformity.
 
 Most data cleaning was made with **`SQL Server Management Studio`**, since we'll assume data is stored in the Company's database.
 
@@ -187,7 +187,7 @@ The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone
 
 ## 4. ANALYZE Phase
 
-Now that we know a little about the data, we'll explore the most relevant insights as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
+Now that the data has been preprocessed, we'll explore the most relevant insights as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
 
 We loaded the Shapefile formats and took a look at the service zones Manhattan is divided into. We can see Manhattan is divided into 4 zones:
 - Yellow Zone
@@ -202,7 +202,7 @@ The amount of trips done is a little higher during the first half of the year, b
 
 <img src="https://user-images.githubusercontent.com/52865532/143788612-bad87fe2-e1b9-4bfc-81fc-d7c5447a3abb.png" width="700">
 
-As for the payment type variable, since the start of the pandemic, cash usage is being replaced in favor of contactless payment types apparently because of fear of of COVID-19 being transmitted through physical money.
+As for the payment type variable, since the start of the pandemic, cash usage is being replaced in favor of contactless payment types [apparently because of fear of of COVID-19 being transmitted through physical money](https://www.inquirer.com/business/retail/coronavirus-surge-cashless-mobile-payments-20200706.html).
 
 <img src="https://user-images.githubusercontent.com/52865532/147894398-40d593fe-9dfe-4ca1-bd54-eb2df73c77bf.png" width="700">
 
