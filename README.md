@@ -156,17 +156,17 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 > - **`congestion_surcharge`**: Congestion surcharge for trips that start, end or pass through the congestion zone in Manhattan, south of 96th street ($2.50 for non-shared trips in Yellow Taxis, $2.75 for non-shared trips in Green Taxis)". (categorical)
 
 ### Data credibility and integrity
-- **Reliability** : This dataset may not be so reliable since 2020 trends are severely affected by the COVID-19 outbreak which greatly impacted on the level of service. Special consideration should be taken into which trends may reverse and which ones may stay.
+- **Reliability** : This dataset may not be entirely reliable since 2020 demand was severely affected by the COVID-19 outbreak which greatly impacted on the number of people travelling to the office in Manhattan. Special consideration should be taken into which trends may reverse and which ones may stay. Another caveat to take into account is that some of the data is entered manually, so it should be properly checked.
 
 - **Originality**: This data is owned and provided by the NYT&LC. Thus it's original and we can rely it wasn't modified from its collection to its actual usage.
 
 - **Comprehensiveness**: The data is comprehensive, since it provides all the parameters needed to answer the questions stated about taxi service usage.
 
-- **Current**: The data is recent (less than a year old) and does represent current trends.
+- **Current**: The data is recent (less than a year old at the time of present analysis) and does represent current trends.
 
 - **Cited**: this dataset has been cited and published on [NYC's open data site](https://data.cityofnewyork.us/Transportation/2016-Green-Taxi-Trip-Data/hvrh-b6nb).
 
-After checking previously stated bullet points, we can see that the data shows a high level of integrity and credibility. We should, however, take into account that 2020's data will be highly impacted by COVID-19, in which we expect to see cab rides severely plummeting because of the fear of infection, widespread adoption of home office throughout Manhattan and lockdowns that restricted citizen's mobility. A revision of this analysis should be made to confirm the conclusions made.
+After checking previously stated bullet points, we can see that the data shows a high level of integrity and credibility. We should, however, take into account that 2020's data will be highly impacted by COVID-19, in which we expect to see cab rides severely plummeting because of the fear of infection, widespread adoption of home office throughout Manhattan and lockdowns that restricted citizen's mobility. A revision of this analysis when 2021 data is released should be made to confirm the conclusions. A proper data cleaning has to be done to ensure removal of manual input errors
 
 ## 3. PROCESS Phase
 ### Tools used
@@ -176,7 +176,7 @@ Most data cleaning was made with **`SQL Server Management Studio`**, since we'll
 
 Data visualizations was done in **`Tableau Public`**.
 
-Dashboard background design was done with **`Figma`**, by using a [free template](https://freebiesbug.com/figma-freebies/5-dashboards/) and adapting it to this case's requirements.
+Dashboard background design was done with **`Figma`**, by using a [**`free template`**](https://freebiesbug.com/figma-freebies/5-dashboards/) and adapting it to this case's requirements.
 
 ### Data processing
 In the first place, the data will be extracted as CSV files to apply some preprocessing in Pandas. The steps involved will be documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/python.md)
