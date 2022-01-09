@@ -24,3 +24,12 @@ COUNT(
     END
 )}
 ```
+
+----------- 
+
+dist_tips
+```
+[Tip Amount]/[Trip Distance]
+```
+
+<img src="https://user-images.githubusercontent.com/52865532/147895641-955b4397-ed6d-4221-80a4-74a3b78bf26f.png" width="400">
