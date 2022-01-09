@@ -32,4 +32,21 @@ dist_tips
 [Tip Amount]/[Trip Distance]
 ```
 
-<img src="https://user-images.githubusercontent.com/52865532/147895641-955b4397-ed6d-4221-80a4-74a3b78bf26f.png" width="400">
+<img src="https://user-images.githubusercontent.com/52865532/147895641-955b4397-ed6d-4221-80a4-74a3b78bf26f.png" width="500">
+
+----------- 
+
+<img src="https://user-images.githubusercontent.com/52865532/147894398-40d593fe-9dfe-4ca1-bd54-eb2df73c77bf.png" width="500">
+
+percent_creditcard
+
+```
+COUNT(IF [Payment Type] == 1
+THEN [Lpep Pickup Datetime]
+ELSE NULL
+END)
+/
+COUNT([Lpep Pickup Datetime])
+```
+
+----------- 
