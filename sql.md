@@ -157,4 +157,4 @@ FROM(
 		(trip_distance != 0 AND fare_amount != 0)) AS S;
 ```
 
-Having the relevant data selected and cleaned, we'll save the results of the previous query in a .csv file and load it into Tableau to design the dashboard.
+Having the relevant data selected and cleaned, we'll save the results of the previous query in a .csv file and load it into Tableau to feed the data into the dashboard.
