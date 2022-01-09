@@ -222,7 +222,7 @@ Hypothesis worth further exploration:
 
 Demand is mostly stable across the days of the week, but we can see when it gets closer to the weekend night trips become more common. This may indicate people go clubbing / visiting friends / get a drink at a bar and stay longer in Manhattan those days.
 
-<img src="https://user-images.githubusercontent.com/52865532/145298278-a6cdb7f9-fc57-4d35-aad0-9e626560b2a5.png" width="700">
+<img src="https://user-images.githubusercontent.com/52865532/148699294-1dbdd450-1368-4ecc-af59-12507bdb65e6.png" width="700">
 
 Trips tend to last between 18 and 27 minutes, with peaks on rush hours (around 5:00 AM and 4:00 PM)
 
