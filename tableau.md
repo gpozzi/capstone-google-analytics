@@ -59,12 +59,6 @@ trips_count_hour
 {FIXED DATEPART('hour',[Lpep Pickup Datetime]):
 COUNT(
     IF 
-        DATEPART('year',[Lpep Pickup Datetime]) < DATEPART('year',TODAY())
-    AND
-        DATEPART('year',[Lpep Pickup Datetime]) >= 2017
-    AND
-        DATEPART('year',[Lpep Pickup Datetime]) < 2021
-    AND
         (DATEPART('week',[Lpep Pickup Datetime]) = DATEPART('week',TODAY())
         OR
         DATEPART('week',[Lpep Pickup Datetime]) = DATEPART('week',TODAY()-7))
@@ -75,9 +69,9 @@ COUNT(
     END
 )}
 
-<img src="https://user-images.githubusercontent.com/52865532/147894552-92458ed8-e2ca-42c6-8c47-01ed2a415063.png" width="500">
-
 ```
+
+<img src="https://user-images.githubusercontent.com/52865532/147894552-92458ed8-e2ca-42c6-8c47-01ed2a415063.png" width="500">
 
 ----------- 
 
