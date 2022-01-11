@@ -1,4 +1,4 @@
-# Capstone Project: NYC Green Taxis
+# Capstone Project: NYC Green Taxis [Work in progress]
 
 # Summary / Scope
 
