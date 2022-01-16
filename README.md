@@ -28,7 +28,11 @@ Deliverables:
 - Documentation of any cleaning or manipulation of data
 - A summary of the analysis done
 - Supporting visualizations and key findings
-- Five relevant recommendations based on my analysis
+- Six relevant recommendations based on my analysis
+
+## Results
+
+<img src="https://user-images.githubusercontent.com/52865532/149670884-93bc8ac3-2e5b-4fc4-93ac-a949c1473df0.png" width="500">
 
 # Main
 
