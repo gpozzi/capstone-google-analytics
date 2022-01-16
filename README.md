@@ -11,17 +11,19 @@ It will follow the Google's Six Analysis Phases Framework, which is summarised i
 <img src="https://miro.medium.com/max/1200/1*Z7x7l5YL4WbHkxQckLSXlA.png" width="500">
 
 Project tools / libraries used:
-- `Microsoft SQL Server`
-- `Python: Pandas`
-- `Figma`
-- `Tableau`
+- **`Microsoft SQL Server`**
+- **`Python: Pandas`**
+- **`Figma`**
+- **`Tableau`**
+- **`Google Slides`**
 
 Techniques applied:
 - `Data extraction`
 - `Data Transformation`
 - `Data Cleaning`
 - `Dashboard design (With Figma)`
-
+- `Presentation design`
+ 
 Deliverables:
 - A clear statement of the business task
 - A description of all data sources used
