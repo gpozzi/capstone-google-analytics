@@ -1,6 +1,6 @@
 # Capstone Project: Dashboard design & Analysis of demand patterns for taxi trips in NY [Work in progress]
 
-# Summary / Scope
+## Summary / Scope
 
 <img src="https://user-images.githubusercontent.com/52865532/142680713-61a35034-0413-46e4-ac08-d4c38299c54e.jpg" width="500">
 
@@ -32,17 +32,18 @@ Deliverables:
 - Supporting visualizations and key findings
 - Six relevant recommendations based on my analysis
 
-## Results teaser
+### Results teaser
 
 <img src="https://user-images.githubusercontent.com/52865532/149670884-93bc8ac3-2e5b-4fc4-93ac-a949c1473df0.png" width="500">
 
-## Relevant links
+### Relevant links
 
-- [**`G Slides presentation`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit#slide=id.g35f391192_00)
+- [**`G Slides presentation`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit#slide=id.g35f391192_00): results summary for the case
+- [**`Tableau Dashboard`**](https://public.tableau.com/app/profile/gonzalo3304/viz/MavenTaxiChallenge_16357997930910/Dashboard1?publish=yes): Dashboard solicited for this case
 
-# Main
+## The case
 
-## Mario Maven's email
+### Mario Maven's email
 For this challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher:
 
 > Welcome to the team!
@@ -75,36 +76,36 @@ For this challenge, you’ll be playing the role of a new Data Analyst for the N
 
 > Mario Maven (Lead Dispatcher, NYC Green Taxis)
 
-## 1. ASK Phase
+### 1. ASK Phase
 
-### Business context
-#### NYC Taxi & Limousine Commission
+#### Business context
+##### NYC Taxi & Limousine Commission
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nyctlc_logo.webp/300px-Nyctlc_logo.webp.png" width="150">
 The New York City Taxi and Limousine Commission (NYC TLC) is an agency of the New York City government that licenses and regulates the medallion taxis and for-hire vehicle industries, including app-based companies. The TLC's regulatory landscape includes medallion (yellow) taxicabs, green or Boro taxicabs, black cars (including both traditional and app-based services), community-based livery cars, commuter vans, paratransit vehicles (ambulettes), and some luxury limousines.
 
-##### Mission statement
+###### Mission statement
 > Develop and improve taxi and livery service in New York City, by establishing an overall public transportation policy governing taxi, coach and car services and wheelchair-accessible vans, and to establish certain rates and standards.
 
-#### Green taxis
+##### Green taxis
 In the summer of 2013, New York City (NYC) introduced the first Boro Taxis to complement the Yellow Taxis. The Boro Taxis are a special class of taxis designed to increase the amount of taxi service provided to **low demand** areas of the city. Boro taxis were introduced because too little taxi service was provided in the outer boroughs. They have a restricted service area that prevents them from picking up passengers in Manhattan, requiring them to provide service to other areas of the city. Boro taxis operate alongside Yellow Taxis.
 
 <img align="center" src="https://user-images.githubusercontent.com/52865532/142743814-decbd896-cc48-48e3-8fa3-9511ad6e6091.png" width="250">
 
-### Main stakeholders
-####  Me
+#### Main stakeholders
+#####  Me
 I've been recently hired as a Data Analyst for the New York City Taxi & Limousine Commission. It's my first week on the job. My main job duty will be to conduct any analysis solicited to support Operations department.
 
-#### Mario Maven
+##### Mario Maven
 Mario is the Lead Dispatcher and the solicitor of the dashboard. Let's take a look at the job description of a typical Lead Dispatcher:
 
 > Taxi dispatchers, also called starters, send cabs off to customers and keep records of all road-service calls. They may stay in touch with the drivers while they are on the road, communicating by phone, computer, or two-way radio. They help drivers with problems and answer their questions. For example, they may tell drivers which routes to take to avoid traffic jams. When drivers are involved in accidents, dispatchers call for assistance and send other taxis to the customers.
 
 Given the job description, Mario's main interest will be almost entirely operational: to maximize efficiency in resource allocation.
 
-### Green taxi drivers
+#### Green taxi drivers
 Green taxi drivers will be indirectly impacted by the result of the present data analysis. They will be interested in maximizing the fare amount and reducing the time spent on the street without a passenger assigned.
 
-### Business task
+#### Business task
 Judging by Mario's interest in only street-hailed trips, the weekly planning will have the objective of preassigning spots for cars that will be looking for passengers on the street. This way, Mario will allocate a specific amount of taxis for each day for each zone and taxi drivers will secure their spots.
 
 A well crafted dashboard will greatly improve weekly planning and logistics, which will in turn impact operational efficiency, by reducing the amount of time taxis spend on the street without a passenger assigned. A well planned day will avoid overcrowding of taxis in areas with more demand than supply and viceversa.
@@ -116,15 +117,15 @@ Some other questions will be asked as well to look for relevant insights:
 - Has the payment type changed over the course of the years?
 - Is there a time in which tips are more generous?
 
-## 2. PREPARE Phase
+### 2. PREPARE Phase
 
-### Data source
+#### Data source
 We'll assume the data will be pulled from the Company's database. We'll use `SQL Server Management Studio` to write our queries.
 
-### Data description
+#### Data description
 The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io/data-playground) ([**`original source`**](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)), it contains 6 files: `454_calendar.csv`, `taxi_zones.csv`, `2017_taxi_trips.csv`, `2018_taxi_trips.csv`, `2019_taxi_trips.csv`, `2020_taxi_trips.csv`, along with a geospatial map in TopoJSON (to be used with PowerBI) and Shapefile (Tableau) formats. It contains over 28 million Green Taxi trips records registered between 2017 and 2020. The parameters included are:
 
-#### 454_calendar.csv
+##### 454_calendar.csv
 > - **`Date`**: Date [`2018-02-03`]. (categorical)
 > - **`FiscalYear`**: Year number[`2018`]. (categorical)
 > - **`FiscalQuarter`**: Quarter number of current fiscal year [`02`]. (categorical)
@@ -138,13 +139,13 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 > - **`DayOfMonthNumber`**: Number of day in current month [`10`]. (categorical)
 > - **`DayName`**: Name of day [`Sunday`]. (categorical)
 
-#### taxi_zones.csv
+##### taxi_zones.csv
 > - **`LocationID`**: TLC Taxi Zone code. (categorical)
 > - **`Borough`**: TLC Taxi Borough name. (categorical)
 > - **`Zone`**: TLC Taxi Zone name. (categorical)
 > - **`service_zone`**: Real country name if "Region" isn't an exact match. (categorical)
 
-#### [year] taxi_trips.csv (4 files):
+##### [year] taxi_trips.csv (4 files):
 > - **`VendorID`**: A code indicating the LPEP provider that provided the record (1= Creative Mobile Technologies, LLC,  2= Verifone Inc.)". (categorical)
 > - **`lpep_pickup_datetime`**: The date and time when the meter was engaged. (categorical)
 > - **`lpep_dropoff_datetime`**: The date and time when the meter was disengaged. (categorical)
@@ -165,7 +166,7 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 > - **`trip_type`**: A code indicating whether the trip was a street-hail or a dispatch that is automatically assigned based on the metered rate in use but can be altered by the driver (1= Street-hail, 2= Dispatch). (categorical)
 > - **`congestion_surcharge`**: Congestion surcharge for trips that start, end or pass through the congestion zone in Manhattan, south of 96th street ($2.50 for non-shared trips in Yellow Taxis, $2.75 for non-shared trips in Green Taxis)". (categorical)
 
-### Data credibility and integrity
+#### Data credibility and integrity
 - **Reliability** : This dataset may not be entirely reliable since 2020 demand was severely affected by the COVID-19 outbreak which greatly impacted on the number of people travelling to the office in Manhattan. Special consideration should be taken into which trends may reverse and which ones may stay. Another caveat to take into account is that some of the data is entered manually, so it should be properly checked.
 
 - **Originality**: This data is owned and provided by the NYT&LC. Thus it's original and we can rely it wasn't modified from its collection to its actual usage.
@@ -178,8 +179,8 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 
 After checking previously stated bullet points, we can see that the data shows a high level of integrity and credibility. We should, however, take into account that 2020's data will be highly impacted by COVID-19, in which we expect to see cab rides severely plummeting because of the fear of infection, widespread adoption of home office throughout Manhattan and lockdowns that restricted citizen's mobility. A revision of this analysis when 2021 data is released should be made to confirm the conclusions. A proper data cleaning has to be done to ensure removal of manual input errors
 
-## 3. PROCESS Phase
-### Tools used
+### 3. PROCESS Phase
+#### Tools used
 Some preprocessing in **`Pandas`** has been done because the DATETIME format of two columns was not consistent across all rows and tables and with this tool I could enforce its uniformity.
 
 Most data cleaning was made with **`SQL Server Management Studio`**, since we'll assume data is stored in the Company's database.
@@ -188,14 +189,14 @@ Data visualizations was done in **`Tableau Public`**.
 
 Dashboard background design was done with **`Figma`**, by using a [**`free template`**](https://freebiesbug.com/figma-freebies/5-dashboards/) and adapting it to this case's requirements.
 
-### Data processing
+#### Data processing
 In the first place, the data will be extracted as CSV files to apply some preprocessing in Pandas. The steps involved will be documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/python.md)
 
 We'll then load the `taxi_trips_[year]` datasets into a database as 4 different tables. I didn't concatenate them in Pandas to keep the most part of the preprocessing in SQL.
 
 The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/sql.md)
 
-## 4. ANALYZE Phase
+### 4. ANALYZE Phase
 
 Now that the data has been preprocessed, we'll explore the most relevant insights as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
 
@@ -250,17 +251,17 @@ As for the location of most of the demand, we'll take a snapshot of the amount o
 
 <img src="https://user-images.githubusercontent.com/52865532/146680553-2c4ea9c5-6654-4c02-b2ae-b4e14f7c435b.png" width="700">
 
-### Area 1 (Northern Manhattan)
+#### Area 1 (Northern Manhattan)
 Area 1 is mostly Harlem / northern Manhattan, which is the northern access. We can see an average hourly demand of between 1.800 and 3.100 trips
 
 <img src="https://user-images.githubusercontent.com/52865532/146680647-718596f0-191d-41fe-ac2e-637991515661.png" width="700">
 
-### Area 2 (Brooklyn)
+#### Area 2 (Brooklyn)
 Area 2 is the southern access to Manhattan, done via Brooklyn and Manhattan Bridges. We can see an average hourly demand of between 1.300 and 1.600 trips
 
 <img src="https://user-images.githubusercontent.com/52865532/146680815-3ed9fe09-3c66-41e1-bf87-ad568a83a9b6.png" width="700">
 
-### Area 3 (Queens)
+#### Area 3 (Queens)
 Area 3 concentrates most of the demand around the neighborhoods closest to the fast accesses to Manhattan (Grand Central Parkway and Queensboro Bridge). The average hourly demand is between 1.100 and 2.200 trips
 
 <img src="https://user-images.githubusercontent.com/52865532/146681034-a03244b5-8398-4c8f-b064-48fbc3d4816c.png" width="700">
@@ -273,10 +274,10 @@ And we plotted all three groups onto this map
 
 <img src="https://user-images.githubusercontent.com/52865532/147894340-1b5bb88e-e1b3-496a-ad0e-9ab23cf87ad3.png" width="700">
 
-## 5. SHARE Phase
+### 5. SHARE Phase
 In this phase, I'll be sharing a Google Slides presentation that can be seen [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
 
-## 6. ACT Phase
+### 6. ACT Phase
 As a closing to this project, I'll write a response email to Mario Maven with the information solicited and some recomendations
 
 > Hey Mario!
