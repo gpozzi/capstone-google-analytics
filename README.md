@@ -113,9 +113,12 @@ A well crafted dashboard will greatly improve weekly planning and logistics, whi
 This way, the dashboard will positively impact all stakeholders involved while being aligned with the company's mission statement: to improve taxi and livery service in New York City.
 
 Some other questions will be asked as well to look for relevant insights:
-- Do fares depend on the time of day?
+- Do fares depend on the time of day? And what about the day of the week?
 - Has the payment type changed over the course of the years?
 - Is there a time in which tips are more generous?
+- What is the demand like for different boroughs at different times?
+- Is trip length the same for all hours of the day?
+- 
 
 ### 2. PREPARE Phase
 
