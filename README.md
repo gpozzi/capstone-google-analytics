@@ -1,4 +1,4 @@
-# Capstone Project: NYC Green Taxis [Work in progress]
+# Capstone Project: Dashboard design & Analysis of demand patterns for taxi trips in NY [Work in progress]
 
 # Summary / Scope
 
@@ -32,9 +32,13 @@ Deliverables:
 - Supporting visualizations and key findings
 - Six relevant recommendations based on my analysis
 
-## Results
+## Results teaser
 
 <img src="https://user-images.githubusercontent.com/52865532/149670884-93bc8ac3-2e5b-4fc4-93ac-a949c1473df0.png" width="500">
+
+## Relevant links
+
+- **`[G Slides presentation](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit#slide=id.g35f391192_00)`**
 
 # Main
 
