@@ -39,7 +39,7 @@ Deliverables:
 ### Relevant links
 
 - [**`G Slides presentation`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit#slide=id.g35f391192_00): results summary for the case
-- [**`Tableau Dashboard`**](https://public.tableau.com/app/profile/gonzalo3304/viz/MavenTaxiChallenge_16357997930910/Dashboard1?publish=yes): Dashboard solicited for this case
+- [**`Tableau Dashboard`**](https://public.tableau.com/app/profile/gonzalo3304/viz/MavenTaxiChallenge_16357997930910/Dashboard1?publish=yes): solicited dashboard
 
 ## The case
 
