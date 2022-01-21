@@ -184,7 +184,7 @@ After checking previously stated bullet points, we can see that the data shows a
 
 ### 3. PROCESS Phase
 #### Tools used
-Some preprocessing in **`Pandas`** has been done because the DATETIME format of two columns was not consistent across all rows and tables and with this tool I could enforce its uniformity.
+Some preprocessing in **`Pandas`** has been done because the DATETIME format of two columns was not consistent across all rows and tables and with it I could enforce its uniformity.
 
 Most data cleaning was made with **`SQL Server Management Studio`**, since we'll assume data is stored in the Company's database.
 
