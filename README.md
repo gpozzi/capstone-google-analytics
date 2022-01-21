@@ -201,7 +201,7 @@ The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone
 
 ### 4. ANALYZE Phase
 
-Now that the data has been preprocessed, we'll explore the most relevant insights as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
+Now that the data has been preprocessed, we'll put the data to good use as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
 
 We loaded the Shapefile formats and took a look at the service zones Manhattan is divided into. We can see Manhattan is divided into 4 zones:
 - Yellow Zone
