@@ -281,21 +281,21 @@ And we plotted all three groups onto this map
 In this phase, I'll be sharing a Google Slides presentation that can be seen [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
 
 ### 6. ACT Phase
-As a closing to this project, I'll write a response email to Mario Maven with the information solicited and some recomendations
+As a closing to this project, I'll write a response email to Mario Maven with the information solicited and some recomendations based on the analyzed data
 
 > Hey Mario!
 
 > I'm writing this email to let you know I've finished the task you assigned me. It was tough, but I learned from it and enjoyed it a lot.
 
-> I've also added some other insights to the ones you asked me because I find they can be useful to you as the Lead Dispatcher.
+> I've also added some other insights to the ones you asked me because I find they can be useful to you.
 
 > If you want to, we can have a 15 minutes meeting via Zoom and I can further explain some things I've seen. I've prepared a Slides presentation with the key insights which you'll be able to see [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
 
-> [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)'s your Tableau Dashboard you asked me to help you with your weekly planning. I've designed the background with Figma and I hope you find it visually appealing and useful.
+> [**`Here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)'s the Tableau Dashboard you asked me to build to help you with your weekly planning. I've designed the background with Figma and I hope you find it visually appealing and useful.
 
 > Here's some things I recommend based on the data I've been analyzing:
 
-> - Use the clusters I've created to keep track of the different neighborhoods. High demand zones are critical and service shortages should be avoided at all costs since they'll affect a lot of people. I'd keep a close eye into these zones and monitor them with more frequency. Low demand zones can be monitored less frequently. Also, knowing the areas where there are more trips you'll be able to reward the best (cleanest, most polite, with best drivers, etc) taxis with these zones to incentivize improvement of the service.
+> - Use the clusters I've created to keep track of the different neighborhoods. High demand zones are critical since taxis shortages can have a greater impact on the service level and should be avoided at all costs since they'll affect a lot of people. I'd keep a close eye into these zones and monitor them with more frequency. Low demand zones can be monitored less frequently. Also, knowing the areas where there are more trips you'll be able to reward the best (cleanest, most polite, with best drivers, etc) taxis with these zones to incentivize improvement of the service.
 
 > - You can also assign the best taxis to the hours that tend to tip more.
 
