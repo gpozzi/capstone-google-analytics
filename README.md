@@ -7,7 +7,7 @@
   * [Relevant links](#relevant-links)
 - [The case](#the-case)
   * [Mario Maven's email](#mario-maven-s-email)
-  * [1. ASK Phase](#1-ask-phase)
+  * [1. ASK](#1-ask)
     + [Business context](#business-context)
       - [NYC Taxi & Limousine Commission](#nyc-taxi---limousine-commission)
         * [Mission statement](#mission-statement)
@@ -17,22 +17,22 @@
       - [Mario Maven](#mario-maven)
     + [Green taxi drivers](#green-taxi-drivers)
     + [Business task](#business-task)
-  * [2. PREPARE Phase](#2-prepare-phase)
+  * [2. PREPARE](#2-prepare)
     + [Data source](#data-source)
     + [Data description](#data-description)
       - [454_calendar.csv](#454-calendarcsv)
       - [taxi_zones.csv](#taxi-zonescsv)
       - [[year] taxi_trips.csv (4 files):](#-year--taxi-tripscsv--4-files--)
     + [Data credibility and integrity](#data-credibility-and-integrity)
-  * [3. PROCESS Phase](#3-process-phase)
+  * [3. PROCESS](#3-process)
     + [Tools used](#tools-used)
     + [Data processing](#data-processing)
-  * [4. ANALYZE Phase](#4-analyze-phase)
+  * [4. ANALYZE](#4-analyze)
     + [Area 1 (Northern Manhattan)](#area-1--northern-manhattan-)
     + [Area 2 (Brooklyn)](#area-2--brooklyn-)
     + [Area 3 (Queens)](#area-3--queens-)
-  * [5. SHARE Phase](#5-share-phase)
-  * [6. ACT Phase](#6-act-phase)
+  * [5. SHARE](#5-share)
+  * [6. ACT](#6-act)
 
 ## Summary / Scope
 
@@ -113,7 +113,7 @@ For this challenge, you’ll be playing the role of a new Data Analyst for the N
 
 > Mario Maven (Lead Dispatcher, NYC Green Taxis)
 
-### 1. ASK Phase
+### 1. ASK
 
 #### Business context
 ##### NYC Taxi & Limousine Commission
@@ -157,7 +157,7 @@ Some other questions will be asked as well to look for relevant insights:
 - Is trip length the same for all hours of the day?
 - 
 
-### 2. PREPARE Phase
+### 2. PREPARE
 
 #### Data source
 We'll assume the data will be pulled from the Company's database. We'll use `SQL Server Management Studio` to write our queries.
@@ -219,7 +219,7 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 
 After checking previously stated bullet points, we can see that the data shows a high level of integrity and credibility. We should, however, take into account that 2020's data will be highly impacted by COVID-19, in which we expect to see cab rides severely plummeting because of the fear of infection, widespread adoption of home office throughout Manhattan and lockdowns that restricted citizen's mobility. A revision of this analysis when 2021 data is released should be made to confirm the conclusions. A proper data cleaning has to be done to ensure removal of manual input errors
 
-### 3. PROCESS Phase
+### 3. PROCESS
 #### Tools used
 Some preprocessing in **`Pandas`** has been done because the DATETIME format of two columns was not consistent across all rows and tables and with it I could enforce its uniformity.
 
@@ -236,7 +236,7 @@ We'll then load the `taxi_trips_[year]` datasets into a database as 4 different 
 
 The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/sql.md)
 
-### 4. ANALYZE Phase
+### 4. ANALYZE
 
 Now that the data has been preprocessed, we'll put the data to good use as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
 
@@ -314,10 +314,11 @@ And we plotted all three groups onto this map
 
 <img src="https://user-images.githubusercontent.com/52865532/147894340-1b5bb88e-e1b3-496a-ad0e-9ab23cf87ad3.png" width="700">
 
-### 5. SHARE Phase
-In this phase, I'll be sharing a Google Slides presentation that can be seen [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
+### 5. SHARE
 
-### 6. ACT Phase
+In this phase of the project, I'll be sharing a Google Slides presentation that can be seen [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
+
+### 6. ACT
 As a closing to this project, I'll write a response email to Mario Maven with the information solicited and some recomendations based on the analyzed data
 
 > Hey Mario!
