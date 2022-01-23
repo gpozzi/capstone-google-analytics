@@ -331,7 +331,7 @@ As a closing to this project, I'll write a response email to Mario Maven with th
 
 > - With all this being said, I'd take all these recommendations with a pinch of salt since a lot has changed in 2020. We'll have to add 2021 data and implement a dashboard in real time to check if a lot of these trends stick after COVID. I expect to see a process of decentralization with a lot of workplaces migrating outside the island with a reduction of trips from and to Manhattan.
 
-> If you want a personal meeting with me so I can explain everything with more detail, you can book one **[`here`]**(https://calendly.com/gonzalopozzi/30min)
+> If you want a personal meeting with me so I can explain everything with more detail, you can book one [**`here`**](https://calendly.com/gonzalopozzi/30min)
 
 > I'm looking forward for the next challenge
 
