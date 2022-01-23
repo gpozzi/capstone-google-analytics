@@ -58,7 +58,7 @@ Deliverables:
 
 #### Mario Maven's email
 
-For this challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher:
+For this challenge, I’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's my first week on the job, and I just received the following email from the Lead Dispatcher:
 
 > Welcome to the team!
 
@@ -330,3 +330,9 @@ As a closing to this project, I'll write a response email to Mario Maven with th
 > - Cashless payment started to gain traction. Maybe we can take advantage of the mass adoption of electronic means of payment to aim for 80% cashless by partnering with more PSPs (Payment Service Providers) such as Paypal / Stripe / PayU / etc and charging a small service fee for cash payment? This can improve taxi service since it's faster to charge, it avoids physical contact and reduces admin time.
 
 > - With all this being said, I'd take all these recommendations with a pinch of salt since a lot has changed in 2020. We'll have to add 2021 data and implement a dashboard in real time to check if a lot of these trends stick after COVID. I expect to see a process of decentralization with a lot of workplaces migrating outside the island with a reduction of trips from and to Manhattan.
+
+> If you want a personal meeting with me so I can explain everything with more detail, you can book one **[`here`]**(https://calendly.com/gonzalopozzi/30min)
+
+> I'm looking forward for the next challenge
+
+> See you soon!
