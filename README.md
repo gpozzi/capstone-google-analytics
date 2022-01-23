@@ -77,9 +77,8 @@ Deliverables:
 
 ## The case
 
-[<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
-
 ### 1. ASK
+[<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
 
 #### Mario Maven's email
 
@@ -160,6 +159,8 @@ Some other questions will be asked as well to look for relevant insights:
 
 ### 2. PREPARE
 
+[<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
+
 #### Data source
 We'll assume the data will be pulled from the Company's database. We'll use `SQL Server Management Studio` to write our queries.
 
@@ -221,6 +222,9 @@ The dataset has been provided by [Maven Analytics](https://www.mavenanalytics.io
 After checking previously stated bullet points, we can see that the data shows a high level of integrity and credibility. We should, however, take into account that 2020's data will be highly impacted by COVID-19, in which we expect to see cab rides severely plummeting because of the fear of infection, widespread adoption of home office throughout Manhattan and lockdowns that restricted citizen's mobility. A revision of this analysis when 2021 data is released should be made to confirm the conclusions. A proper data cleaning has to be done to ensure removal of manual input errors
 
 ### 3. PROCESS
+
+[<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
+
 #### Tools used
 Some preprocessing in **`Pandas`** has been done because the DATETIME format of two columns was not consistent across all rows and tables and with it I could enforce its uniformity.
 
@@ -238,6 +242,8 @@ We'll then load the `taxi_trips_[year]` datasets into a database as 4 different 
 The data cleaning was documented [**`here`**](https://github.com/gpozzi/capstone-google-analytics/blob/main/sql.md)
 
 ### 4. ANALYZE
+
+[<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
 
 Now that the data has been preprocessed, we'll put the data to good use as solicited in Mario's email. We'll include the additional questions stated in "business task" section.
 
@@ -317,9 +323,14 @@ And we plotted all three groups onto this map
 
 ### 5. SHARE
 
+[<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
+
 In this phase of the project, I'll be sharing a Google Slides presentation that can be seen [**`here`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit?usp=sharing)
 
 ### 6. ACT
+
+[<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
+
 As a closing to this project, I'll write a response email to Mario Maven with the information solicited and some recomendations based on the analyzed data
 
 > Hey Mario!
