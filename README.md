@@ -82,6 +82,7 @@ Deliverables:
 ### 1. ASK
 
 #### Mario Maven's email
+
 For this challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher:
 
 > Welcome to the team!
@@ -115,6 +116,7 @@ For this challenge, you’ll be playing the role of a new Data Analyst for the N
 > Mario Maven (Lead Dispatcher, NYC Green Taxis)
 
 #### Business context
+
 ##### NYC Taxi & Limousine Commission
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nyctlc_logo.webp/300px-Nyctlc_logo.webp.png" width="150">
 The New York City Taxi and Limousine Commission (NYC TLC) is an agency of the New York City government that licenses and regulates the medallion taxis and for-hire vehicle industries, including app-based companies. The TLC's regulatory landscape includes medallion (yellow) taxicabs, green or Boro taxicabs, black cars (including both traditional and app-based services), community-based livery cars, commuter vans, paratransit vehicles (ambulettes), and some luxury limousines.
