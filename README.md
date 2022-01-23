@@ -3,8 +3,7 @@
 ## Table of contents
 
 - [Summary](#summary)
-  * [Results teaser](#results-teaser)
-  * [Relevant links](#relevant-links)
+  * [Results](#results)
 - [The case](#the-case)
   * [1. ASK](#1-ask)
   * [2. PREPARE](#2-prepare)
@@ -45,11 +44,9 @@ Deliverables:
 - Supporting visualizations and key findings
 - Six relevant recommendations based on my analysis
 
-### Results teaser
+### Results
 
 <img src="https://user-images.githubusercontent.com/52865532/149670884-93bc8ac3-2e5b-4fc4-93ac-a949c1473df0.png" width="500">
-
-### Relevant links
 
 - [**`G Slides presentation`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit#slide=id.g35f391192_00): results summary for the case
 - [**`Tableau Dashboard`**](https://public.tableau.com/app/profile/gonzalo3304/viz/MavenTaxiChallenge_16357997930910/Dashboard1?publish=yes): solicited dashboard
