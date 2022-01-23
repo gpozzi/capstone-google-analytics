@@ -6,8 +6,8 @@
   * [Results teaser](#results-teaser)
   * [Relevant links](#relevant-links)
 - [The case](#the-case)
-  * [Mario Maven's email](#mario-maven-s-email)
   * [1. ASK](#1-ask)
+    + [Mario Maven's email](#mario-maven-s-email)
     + [Business context](#business-context)
       - [NYC Taxi & Limousine Commission](#nyc-taxi---limousine-commission)
         * [Mission statement](#mission-statement)
@@ -79,8 +79,9 @@ Deliverables:
 
 [<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">](#table-of-contents)
 
+### 1. ASK
 
-### Mario Maven's email
+## Mario Maven's email
 For this challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher:
 
 > Welcome to the team!
@@ -112,8 +113,6 @@ For this challenge, you’ll be playing the role of a new Data Analyst for the N
 > Thanks in advance,
 
 > Mario Maven (Lead Dispatcher, NYC Green Taxis)
-
-### 1. ASK
 
 #### Business context
 ##### NYC Taxi & Limousine Commission
