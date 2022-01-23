@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-- [Summary / Scope](#summary---scope)
+- [Summary](#summary)
   * [Results teaser](#results-teaser)
   * [Relevant links](#relevant-links)
 - [The case](#the-case)
@@ -13,7 +13,7 @@
   * [5. SHARE](#5-share)
   * [6. ACT](#6-act)
 
-## Summary / Scope
+## Summary
 
 <img src="https://user-images.githubusercontent.com/52865532/142680713-61a35034-0413-46e4-ac08-d4c38299c54e.jpg" width="500">
 
