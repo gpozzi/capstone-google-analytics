@@ -1,5 +1,41 @@
 # Capstone Project: Dashboard design & Analysis of demand patterns for taxi trips in NY [Work in progress]
 
+- [Capstone Project: Dashboard design & Analysis of demand patterns for taxi trips in NY [Work in progress]](#capstone-project--dashboard-design---analysis-of-demand-patterns-for-taxi-trips-in-ny--work-in-progress-)
+  * [Summary / Scope](#summary---scope)
+    + [Results teaser](#results-teaser)
+    + [Relevant links](#relevant-links)
+  * [The case](#the-case)
+    + [Mario Maven's email](#mario-maven-s-email)
+    + [1. ASK Phase](#1-ask-phase)
+      - [Business context](#business-context)
+        * [NYC Taxi & Limousine Commission](#nyc-taxi---limousine-commission)
+          + [Mission statement](#mission-statement)
+        * [Green taxis](#green-taxis)
+      - [Main stakeholders](#main-stakeholders)
+        * [Me](#me)
+        * [Mario Maven](#mario-maven)
+      - [Green taxi drivers](#green-taxi-drivers)
+      - [Business task](#business-task)
+    + [2. PREPARE Phase](#2-prepare-phase)
+      - [Data source](#data-source)
+      - [Data description](#data-description)
+        * [454_calendar.csv](#454-calendarcsv)
+        * [taxi_zones.csv](#taxi-zonescsv)
+        * [[year] taxi_trips.csv (4 files):](#-year--taxi-tripscsv--4-files--)
+      - [Data credibility and integrity](#data-credibility-and-integrity)
+    + [3. PROCESS Phase](#3-process-phase)
+      - [Tools used](#tools-used)
+      - [Data processing](#data-processing)
+    + [4. ANALYZE Phase](#4-analyze-phase)
+      - [Area 1 (Northern Manhattan)](#area-1--northern-manhattan-)
+      - [Area 2 (Brooklyn)](#area-2--brooklyn-)
+      - [Area 3 (Queens)](#area-3--queens-)
+    + [5. SHARE Phase](#5-share-phase)
+    + [6. ACT Phase](#6-act-phase)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Summary / Scope
 
 <img src="https://user-images.githubusercontent.com/52865532/142680713-61a35034-0413-46e4-ac08-d4c38299c54e.jpg" width="500">
