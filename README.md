@@ -77,6 +77,8 @@ Deliverables:
 
 ## The case
 
+<img src="https://user-images.githubusercontent.com/52865532/150685377-5ed9dee9-561d-4949-9617-345d0f946174.png" width="200">
+
 ### Mario Maven's email
 For this challenge, you’ll be playing the role of a new Data Analyst for the New York City Taxi & Limousine Commission. It's your first week on the job, and you just received the following email from the Lead Dispatcher:
 
