@@ -325,13 +325,13 @@ As a closing to this project, I'll write a response email to Mario Maven with th
 
 > - You can also assign the best taxis to the hours that tend to tip more.
 
-> - It would be great to incentivize people to stay 1-2 more hours in Manhattan to flatten a little demand at peak hours. With a flatter demand curve, you'd avoid having too many cars on the street for a couple of hours and reduce the possibility of service shortages. Maybe we can consider partnering with pubs to offer discounts at peak hours? Or also partner with gyms to make people stay after work? We can be creative about this because I find this critical. Peaks generate inefficient resources allocation
+> - It would be great to incentivize people to stay 1-2 more hours in Manhattan to flatten a little demand at peak hours. With a flatter demand curve, you'd avoid having too many cars on the street for a couple of hours and reduce the possibility of service shortages. Maybe we can consider partnering with pubs to offer discounts at peak hours? Or also partner with gyms to make people stay after work? We can be creative about this because there are many activities people can do to stay a little longer.
 
 > - Cashless payment started to gain traction. Maybe we can take advantage of the mass adoption of electronic means of payment to aim for 80% cashless by partnering with more PSPs (Payment Service Providers) such as Paypal / Stripe / PayU / etc and charging a small service fee for cash payment? This can improve taxi service since it's faster to charge, it avoids physical contact and reduces admin time.
 
 > - With all this being said, I'd take all these recommendations with a pinch of salt since a lot has changed in 2020. We'll have to add 2021 data and implement a dashboard in real time to check if a lot of these trends stick after COVID. I expect to see a process of decentralization with a lot of workplaces migrating outside the island with a reduction of trips from and to Manhattan.
 
-> If you want a personal meeting with me so I can explain everything with more detail, you can book one [**`here`**](https://calendly.com/gonzalopozzi/30min)
+> If you want a personal meeting with me so I can explain everything with more detail, you can book one [**`here`**](https://calendly.com/gonzalopozzi/15min)
 
 > I'm looking forward for the next challenge
 
