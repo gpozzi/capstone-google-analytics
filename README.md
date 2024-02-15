@@ -49,7 +49,7 @@ Deliverables:
 <img src="https://user-images.githubusercontent.com/52865532/149670884-93bc8ac3-2e5b-4fc4-93ac-a949c1473df0.png" width="500">
 
 - [**`G Slides presentation`**](https://docs.google.com/presentation/d/1CkPvcjGs-CfqlsqgqwN1xjjvlNPCdZvbQtDTI0GeMME/edit#slide=id.g35f391192_00): results summary for the case
-- [**`Tableau Dashboard`**](https://public.tableau.com/app/profile/gonzalo3304/viz/MavenTaxiChallenge_16357997930910/Dashboard1?publish=yes): solicited dashboard
+- [**`Tableau Dashboard`**](https://public.tableau.com/app/profile/gonzalo3304/viz/Borotaxisdashboard/Dashboard1): solicited dashboard
 
 ## The case
 
